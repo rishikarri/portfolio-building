@@ -1,0 +1,757 @@
+
+
+//declaration of variables used 
+
+$myLightBlue: #00B7FF;
+$myBlue: #337ab7;
+
+$myGreen: #00cd00;
+
+$myGrey: #f8f8f8;
+$lightGrey: #DCDCDC;
+$darkerGrey: #a9a9a9;
+$HRBorder: darkgrey;
+$mylightGrey: #e7e7e7;
+$text: #4F4F4F;
+
+
+
+
+  // styling to make side nav bar and top nav bar responsive
+  @media only screen and (min-width: 1200px) {
+  /* line 23, ../../compass/sass/styles.scss */
+
+  .side-nav-bar .nav-bar-link {
+    font-size: 35px !important;
+  }
+
+  .animation-container{
+      margin-left: 0px !important;
+    }
+
+}
+  // when I am over 992 px
+
+
+  @media only screen and (min-width: 992px){
+    .responsive-margin-above{
+      margin-top: 40px;
+    }
+
+    .animation-container{
+      margin-left: 13px;
+    }
+  }
+  @media only screen and (max-width: 992px){
+
+  .side-nav-bar{
+    display: none !important;
+    /* display: visible; */
+  }
+
+  .top-nav-bar-div{
+    display: block !important;    
+  }
+
+  .nav-bar-link-top{
+    font-size: 26px;
+  }
+
+  .move-contact-me-section-down{
+    margin-top: 0px !important;
+  }
+
+  .taller-table-rows{
+    height: 7.8vh !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .nav-bar-link-top{
+    font-size: 4.4vw;
+  }
+
+  // hide top word worm depending on zoom size
+  .hide-word-worm{
+    display: none;
+   
+  }
+  .show-word-worm{
+    display: block !important;
+    text-align: center;
+
+  }
+}
+
+.top-nav-bar-div{
+  display: none;
+}
+
+.top-nav-bar{
+  height: 80px;
+  font-size: 24px;
+  background-color: $myGrey;
+  border: solid 1px $mylightGrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+
+}
+
+.nav-bar-link-top{
+  // font-size: 4.2vw;
+  color: $myBlue;
+  font-weight: 200;
+
+}
+
+.active-link-top{
+  color: $myGreen;
+  // color: #869968;
+  text-decoration: none;
+}
+
+.nav-bar-link-top:hover{
+  color: $myGreen;
+  // color: #869968;
+  text-decoration: none;
+}
+
+.nav-bar-link-top.active-link{
+  color: $myGreen;
+  // color: #869968;
+  text-decoration: none;
+ }
+
+//move the first link over to the right a bit
+.nav-bar-link-top-first{
+  margin-left: 18px;   
+
+}
+
+.nav-bar-link-top-last{
+  margin-right: 18px;   
+
+}
+
+
+ .side-nav-bar{
+ 	height: 100vh; //want it to be 100% of whatever the viewport is 	
+ 	top: 0;
+ 	left: 0; 
+  position: fixed;
+  padding: 20px;
+ 	
+ 	 // background: linear-gradient($darkerGrey, $myGrey, $myGrey, $lightGrey, white,  $myblue);
+ 	 background-color: $myGrey;
+ 	 border: solid 1px $mylightGrey;
+ 	
+ 	overflow: hidden; //disable horizontal scroll
+ 	padding-top: 16vh;
+ 	
+ 	box-shadow: 80px;
+
+ 	.nav-bar-link{
+ 		margin-top: 2.8vw;
+ 		display: block;
+ 		text-align: center; 		
+ 		font-weight: 200;
+ 		font-size: 3vw;
+ 		color: $myBlue;
+ 		// color: #7C99B4;
+ 		// color: #8BB8D7;
+
+ 	}
+
+ 	.nav-bar-link:hover{
+ 		color: $myGreen;
+ 		// color: #798855;
+ 		text-decoration: none;
+ 	}
+
+ }
+
+ .nav-bar-link.active-link{
+ 	color: $myGreen;
+ 	// color: #869968;
+ 	text-decoration: none;
+ }
+
+ //hi page styling
+
+ .beast-text{
+ 	font-weight: 800;
+    font-size: 50px;
+    color: #4F4F4F;
+    margin-top: 95px;
+ 	color: $text;
+ }
+
+.weakest-beast-text{
+  @extend .weak-beast-text;
+  font-size: 14px !important;
+ }
+
+.weakly-beast-text{
+ 	@extend .weak-beast-text;
+ 	margin-top: -30px;
+ }
+ .weak-beast-text{
+ 	font-weight: 800;
+    font-size: 24px;
+    color: #4F4F4F;
+ 	color: $text;
+ 	text-align: center;
+ }
+
+
+ //keyframes for beast text 
+
+ 
+
+ //styling for positioning
+
+ .margin-left{
+ 	margin-left: 4vw;
+ }
+
+ .mid-and-center{
+ 	text-align: center; 	
+
+ }
+
+ .full-view-height{
+ 	height: 100vh;
+ }
+
+ .background-image{
+ 	// background-image: url('../../public/Images/green-nature-image.jpg');
+ 	
+ 	// background-repeat: no-repeat;
+ 	// height: 100%;
+ 	// width: 100%;
+ 	// opacity: .7;
+ 	// //make it take up as much of the screen as it can
+ 	// display: flex;
+ 	// background-size: cover;
+
+ 	// background-color: #96d5f5;
+ 	// height: 100vh;
+
+ 	
+
+ 	// align-items: center;
+ 	// justify-content: center;
+ }
+
+ // put side nav bar and content flush against each other
+
+ .col-xs-2.padding-none{
+ 	padding: 0px;
+ }
+
+ .col-xs-10.padding-none{
+ 	padding: 0px;
+
+ }
+
+ //styling for interest and about sections
+
+ // ************************************************************ABOUT SECTION******************************************
+
+ .heading-spacer-about-me{
+ 	border: solid 1px $HRBorder;
+ }
+ .skill-image{
+ 	height: 40px;
+ 	width: 40px;
+  transition: transform 1.9s ease-in-out;
+ }
+
+ .skill-image:hover{
+  transform: rotateY(180deg);
+ }
+
+ .skill-image-only-hover{
+  transition: transform 1.9s ease-in-out;
+ }
+ .skill-image-only-hover:hover{
+  transform: rotateY(180deg);
+ }
+ .personal-photo-div{
+ 	text-align: center;
+ 	// background-color: grey;
+ 	// height: 300px;
+ }
+
+ .text-align-left{
+ 	text-align: left; 
+ }
+
+ .personal-photo{
+ 	text-align: center;
+ 	background-color: grey;
+ 	border-radius: 30%;
+ }
+
+ .about-me-company-photo{
+ 	height: 80px; 
+ 	width: 200px;
+ 	text-align: center;
+ }
+
+ .description-text{
+  font-family: 'Hind Siliguri', sans-serif;
+ 	font-size: 24px;
+ 	text-align: center;
+ 	margin: auto;
+ 	color: #212121;
+ }
+
+
+
+ .description-text-smaller{
+ 	font-family: 'Hind Siliguri', sans-serif;
+ 	font-size: 14.5px;
+ 	text-align: center;
+ 	margin: auto;
+ 	padding-right: 0px !important;
+ 	color: #212121;
+ }
+
+ .about-me-header{
+ 	@extend .weak-beast-text;
+ 	color: $myBlue;
+ 	text-align: center;
+ }
+
+ // styling for table in interests section
+
+ .contain-table{
+  display: table;
+ }
+
+ .title-or-date{
+	// font-size: 2.2vw;
+	font-size: 22px;
+	text-decoration: underline;
+ 	font-family: cursive;
+ 	// add this so that competed on stays on one line;
+ 	min-width: 20vw;
+ }
+
+ .float-me-right{
+ 	float: right;
+ }
+
+.about-photo{
+	border-radius: 20%;		
+	
+} 
+
+.company-photo{
+	width: 10vw;
+}
+
+.margin-above{
+	margin-top: 4vh;
+}
+
+.margin-above-heavy{
+  margin-top: 102px;
+}
+
+.taller-table-rows{
+	height: 4.8vh;
+}
+
+.tallest-table-rows{
+	height: 10vh;
+}
+
+.title-item{
+	font-size: 1.2vw;
+}
+.list-item{
+	font-size: 1.05vw ;
+}
+
+ .quote-text{
+ 	@extend .cursive-font;
+ 	font-size: 3.3vw;
+ }
+
+ .cursive-font{
+ 	font-family: cursive;
+ 	font-weight: 700;
+ 	font-size: 3.5vw;
+ 	text-align: center;
+ }
+
+ .light-blue-span{
+ 	background-color: #337ab7;
+ 	width: 100vw;
+ 	opacity: .7;
+ 	color: black;
+ 	border-radius: 9vw;
+ 	border: .2vw ridge darkgrey;
+ 	
+ 	
+ }
+
+  .light-green-span{
+ 	background-color: $myGreen;
+ 	width: 100vw;
+ 	opacity: .7;
+ 	color: black;
+ 	border-radius: 9vw;
+ 	border: .2vw ridge darkgrey;
+
+ }
+
+ .padding-none{
+ 	padding: 0px !important;
+ }
+
+ .center-text{
+ 	text-align:center
+ }
+
+ .align-left{
+ 	text-align: left;
+ 	
+ }
+
+ .data-entry{
+ 	// font-size: 1.4vw;
+ 	// min-width: 17vw;
+ }
+
+ .spacer-column{
+ 	min-width: 20vw;
+ }
+
+
+// styling for headers of about me and interest
+
+.interests-image{
+	height: 80px; 
+	width: 80px;
+  //spin on hover
+  transition: transform 0.8s ease-in-out; 
+}
+
+.middle-of-div{
+  margin: 0 auto;
+}
+
+.interests-image:hover{
+  transform: rotate(360deg);
+}
+.impact-font{
+	font-family: impact;
+	font-size: 2.4vw;
+	text-align: center;
+	// border-bottom: solid .1vw black;
+}
+
+.open-sans-font{
+	font-family: Open Sans;
+	font-size: 1.8vw;
+	font-weight: 600;
+}
+// Kill margins so that rows don't reach outside of their parent elements
+ .row.kill-margin{
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+ }
+
+
+
+//projects section
+
+.btn{
+  border-radius: 10px;
+  background-color: $myBlue ;
+}
+
+.hide-word-worm{
+    
+    text-align: center;
+    
+  }
+
+.heading-spacer{
+	border-top: 2px solid lightgrey;
+	width: 50%;
+	margin-left: 0px;
+}
+
+.heading-spacer-no-border{
+	border: none;
+}
+
+.project-image{
+	width: 100%;
+	border-radius: 5vw;
+
+}
+
+.project-image-word-worm{
+	width: 60%;
+	border-radius: 5vw;
+
+}
+
+.show-word-worm{
+  display: none;
+  text-align: center;
+}
+
+
+//contact me section
+
+.fa-5x{
+  color: $myBlue;
+}
+.move-contact-me-section-down{
+  margin-top: 170px;
+}
+.contact-me-section{
+	border-top: 2px solid lightgrey;
+
+}
+
+.fa-linkedin-square{
+	// color: $myBlue;
+}
+
+.no-bullet{
+	padding-left: 0; 
+	margin-left: -5px;
+	list-style: none;
+	text-align: center;
+	
+}
+
+.give-me-some-space{
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.margin-right{
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+// ***************************************STYLING FOR COVER PAGE ANIMATION BELOW**************************************************
+html{
+	height: 100%;
+}
+body{
+	/* background: rgb(20, 20, 20); */
+	overflow: scroll;/* //if something is outside of the body, hide it rather than allow scrolling */
+	height: 100%;
+
+	
+}
+
+
+
+.animation-container{
+  position: relative;
+  display: block;
+  width: 100%;
+
+  height: 400px;
+  
+  overflow: hidden;
+}
+
+/* //hi block code */
+#hi-animation-block{
+	height: 25%;
+	width: 10%;
+  padding-bottom: 1%;
+  padding-left: .4%
+
+}
+
+#i-animation-block{
+
+	height: 100%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+}
+
+#i-1-block{
+	width: 26%;
+	height: 80%;
+    right: 10%;
+    top: 0%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+
+
+
+#h-animation-block{
+	height: 100%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	left: 15%;
+}
+#h-1Block{
+
+    width: 31%;
+    height: 80%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+  /* top: 20%; */
+}
+
+#h-2Block{
+    width: 90%;
+    height: 11%;
+    top: 29%;
+    left: 12%;
+    margin-top: -1.5%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+#h-3Block{
+	width: 31%;
+	height: 80%;
+    right: -8%;
+    top: 0%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+/* //regular animation blocks below */
+
+.rectangleAnimation {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 60%; */
+  overflow: hidden;
+}
+// .animation-block{
+//   margin-top: 5% !important;
+//   height: 25% !important;
+//   width: 2%;
+//   top: 10%;
+//   border-radius: 20px;
+//   position: absolute;
+// }
+.rectangleAnimation div {  
+  margin-top: 5%;
+  height: 25%; 
+  width: 2%;
+  top: 10%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+/* animations below */
+
+
+
+#divAnimationBlock1 { animation: wave 17s  3.2s linear infinite;}
+#divAnimationBlock2 { animation: wave 17s  2.4s linear infinite;}
+#divAnimationBlock3 { animation: wave 17s  1.6s linear infinite;}
+#divAnimationBlock4 { animation: wave 17s   0.8s linear infinite;}
+
+#hi-animation-block { animation: hiWave 17s   0.1s linear infinite;}
+/* #divAnimationBlock2  { animation: wave 17s -16.227s linear infinite}
+#divAnimationBlock3  { animation: wave 17s -15.455s linear infinite;}
+#divAnimationBlock4 { animation: wave 17s -14.682s linear infinite;} */
+/* #divAnimationBlock5  { animation: wave 17s -13.909s linear infinite;} */
+#divAnimationBlock5  { animation: wave 17s -12.2s linear infinite;}
+#divAnimationBlock6  { animation: wave 17s -11.4s linear infinite;}
+#divAnimationBlock7  { animation: wave 17s -10.8s linear infinite}
+#divAnimationBlock8  { animation: wave 17s -10.0s linear infinite;}
+#divAnimationBlock9 { animation: wave 17s -9.2s linear infinite}
+#divAnimationBlock10 { animation: wave 17s  -8.4s linear infinite;}
+#divAnimationBlock11 { animation: wave 17s  -7.6s linear infinite}
+#divAnimationBlock12 { animation: wave 17s  -7.0s linear infinite;}
+#divAnimationBlock13 { animation: wave 17s  -6.2s linear infinite}
+#divAnimationBlock14 { animation: wave 17s  -5.6s linear infinite;}
+#divAnimationBlock15 { animation: wave 17s  -4.8s linear infinite;}
+#divAnimationBlock16 { animation: wave 17s  -4.2s linear infinite;}
+#divAnimationBlock17 { animation: wave 17s  -3.6s linear infinite;}
+#divAnimationBlock18 { animation: wave 17s  -2.8s linear infinite;}
+#divAnimationBlock19 { animation: wave 17s  -2.0s linear infinite;}
+
+
+#divAnimationBlock20 { animation: wave 17s  4.0s linear infinite;}
+/* #divAnimationBlock21 { animation: wave 17s  4.1s linear infinite;} */
+
+
+@keyframes wave {
+  0%   { left:-2%; background: #3B44D1; }
+  5%   { background: #9337FE; }
+  8%  { height:30%; margin-top: 1%; background: #C532FC; }
+  10%  { background: #F639F8; }
+  13%  { height:54%; margin-top: 4%; background: #F236C8; }
+  15%  { background: #FF2F8D; }
+  30%  { height:30%; margin-top: 1%; background: #EE3860; }
+  35%  { background: #DC5245; }
+  40%  { height:54%; margin-top: 4%; background: #F38643; }
+  45%  { background: #F8B435; }
+  50%  { height:30%; margin-top: 1%; background: #FAF444; }
+  55%  { background: #E0FF3B; }
+  60%  { height:54%; margin-top: 4%; background: #E1FF3C; }
+  65%  { background: #46F443; }
+  70%  { height:30%; margin-top:  1%; background: #54E67B; }
+  75%  { background: #4DF3A9; }
+  80%  { height:54%; margin-top: 4%; background: #3AF9DA; }
+  85%  { background: #36EBF4; }
+  90%  { height:30%; margin-top:  1%; background: #3DB3F3; }
+  95%  { background: #3C82F1; }
+  100% { height:54%; margin-top: 4%; left:100%; background: #5B38EE; }
+}
+
+@keyframes hiWave {
+  0%   { left:-2%; background: #3B44D1; }
+  5%   { background: #9337FE; }
+  8%  { height:20%; margin-top: 1%; background: #C532FC; }
+  10%  { background: #F639F8; }
+  13%  { height:44%; margin-top: 4%; background: #F236C8; }
+  15%  { background: #FF2F8D; }
+  30%  { height:20%; margin-top: 1%; background: #EE3860; }
+  35%  { background: #DC5245; }
+  40%  { height:44%; margin-top: 4%; background: #F38643; }
+  45%  { background: #F8B435; }
+  50%  { height:18%; margin-top: 1%; background: #FAF444; }
+  55%  { background: #E0FF3B; }
+  60%  { height:44%; margin-top: 4%; background: #E1FF3C; }
+  65%  { background: #46F443; }
+  70%  { height:25%; margin-top:  1%; background: #54E67B; }
+  75%  { background: #4DF3A9; }
+  80%  { height:44%; margin-top: 4%; background: #3AF9DA; }
+  85%  { background: #36EBF4; }
+  90%  { height:22%; margin-top:  1%; background: #3DB3F3; }
+  95%  { background: #3C82F1; }
+  100% { height:54%; margin-top: 4%; left:100%; background: #5B38EE; }
+}
+

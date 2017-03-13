@@ -1,0 +1,71 @@
+import React, { Component } from 'react';
+
+
+class Project extends Component{
+
+
+	render(){
+		return(
+			<div>
+				<div className='row kill-margin'>
+
+					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>
+						<hr className='heading-spacer'/>
+
+						<div className='section-heading'>
+							<h2>COMING SOON: Village Savior</h2>
+							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0, you must retreat!</p>
+							<p> HTML & CSS, JavaScript (code is intentionally written without frameworks)</p>
+							{/*Link to youtube video */}
+							<div className='repo-demo-links'>
+								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
+								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button className='btn btn-primary'> Repository</button></a>
+							</div>
+						</div>
+					</div>
+
+					<div className='col-xs-12 col-sm-5'>						
+						<img className='project-image margin-above' src='../../Images/Projects-Page/survivor-screenshot.png' />
+					</div>
+
+
+				</div>
+
+				<div className='row kill-margin margin-above-heavy'>
+
+					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
+						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
+					</div>
+
+					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>						
+						
+
+						<hr className='heading-spacer'/>
+
+						<div className='section-heading'>
+							<h2>COMING SOON: WordWorms</h2>
+
+							<p>A word learning app. Users are able to take vocabulary quizzes, look up words, and much more!</p>
+							<p> HTML & CSS, Bootstrap, React.js & React-Router, JavaScript (ES-6), jQuery</p>
+
+							<div className='repo-demo-links'>
+								<a className='margin-right' target="_blank" href='https://github.com/CaseyTM/WordWorms/blob/master/src/Images/wordworms_1.gif'><button className='btn btn-primary'> Demo </button></a>
+								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button className='btn btn-primary'> Repository</button></a>
+							</div>							
+						</div>						
+					</div>
+
+					<div className='col-xs-12 show-word-worm col-sm-5 col-sm-offset-1'>
+						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
+					</div>
+
+
+				</div>
+
+
+			</div>
+		)
+	}
+}
+
+export default Project;
