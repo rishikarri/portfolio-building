@@ -144,7 +144,7 @@ class About extends Component{
 
 						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/github.png' />
-							<a href='https://github.com' target="_blank"><div>Github</div></a>
+							<a href='https://github.com' target="_blank"><div>GitHub</div></a>
 							
 						</div>
 

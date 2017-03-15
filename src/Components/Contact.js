@@ -28,7 +28,7 @@ class Contact extends Component{
 								<li>
 									{/*allow users to email you directly */}
 									<a target="_blank" href='mailto:rishikarri1@gmail.com'><i className="fa fa-envelope fa-5x" aria-hidden="true"></i></a>								
-									}
+									
 								</li>
 								<li>
 									Email
