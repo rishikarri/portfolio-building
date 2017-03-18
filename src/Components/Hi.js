@@ -62,7 +62,7 @@ class Hi extends Component{
 
 						<div className='weakly-beast-text'>Full-Stack Web Developer </div> 									
 						<div className='weak-beast-text'>Atlanta, Georgia </div> 									
-						<div className='weakest-beast-text'>(Please Note: this website is stil under construction!) </div> 									
+						
 					</div>
 				</div>				
 
@@ -74,3 +74,5 @@ class Hi extends Component{
 }
 
 export default Hi;
+
+// <div className='weakest-beast-text'>(Please Note: this website is stil under construction!) </div> 									
