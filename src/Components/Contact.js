@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//contact component will hold additional information about me
+//contact component will hold additional information about me 
 
 
 class Contact extends Component{
