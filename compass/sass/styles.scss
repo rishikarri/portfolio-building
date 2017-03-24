@@ -493,8 +493,20 @@ $text: #4F4F4F;
 
 .project-image{
 	width: 100%;
-	border-radius: 5vw;
+  border-radius: 4%;
 
+
+}
+//style the image in the div
+#atlanta-vibes-div{
+  padding-top: 30px;
+
+}
+
+.spacerDivBetweenProjectImages{
+  border: solid 1px lightgrey;
+  margin-bottom: 30px; 
+  margin-top: 70px;
 }
 
 .project-image-word-worm{
