@@ -47,7 +47,7 @@ class Project extends Component{
 							<p> HTML & CSS, Bootstrap, React.js & React-Router, JavaScript (ES-6), jQuery</p>
 
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='https://github.com/CaseyTM/WordWorms/blob/master/src/Images/wordworms_1.gif'><button className='btn btn-primary'> Demo </button></a>
+								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=uQAFY4libg8&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
 								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button className='btn btn-primary'>Repository</button></a>
 							</div>							
 						</div>						
@@ -62,7 +62,7 @@ class Project extends Component{
 
 
 				</div>
-
+			{/*spacerdiv is what puts that nice clean line between projects */}
 				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
 				<div className='row kill-margin margin-above-heavy'>
 
@@ -89,9 +89,13 @@ class Project extends Component{
 				</div>
 
 
+
+
 			</div>
 		)
 	}
 }
 
 export default Project;
+
+// <div className='col-xs-12 text-center weakest-beast-text margin-above'>Please note: these projects are stil under construction!</div>
