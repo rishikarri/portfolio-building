@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// This section holds my interests in addition to whatever i'm reading at the moment
+// This section holds my interests in addition to whatever i'm reading at the moment 
 
 class Interests extends Component{
 
