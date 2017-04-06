@@ -86,17 +86,23 @@ class Interests extends Component{
 
 									<tbody>
 
+										
 										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='http://www.goodreads.com/book/show/9415942-now-is-the-time-for-running' target="_blank">Now is the Time for Running</a></td>
-											<td className='data-entry'>Michael Williams</td>										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/43015.A_Long_Way_Gone' target="_blank">A Long Way Gone</a></td>
+											<td className='data-entry'>Ishmael Beah</td>										
 											<td className='data-entry'>Currently Reading</td>										
 										</tr>
-
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/42547.The_Autobiography_of_Martin_Luther_King_Jr_' target="_blank">The Autobiography of Martin Luther King Jr.</a></td>
 											<td className='data-entry'>Martin Luther King Jr.</td>										
 											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/9415942-now-is-the-time-for-running' target="_blank">Now is the Time for Running</a></td>
+											<td className='data-entry'>Michael Williams</td>										
+											<td className='data-entry'>4/6/2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
