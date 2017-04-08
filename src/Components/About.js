@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// This section contains the technologies I know in addition to a slight blurb about me and the education I have received 
+// This section contains the technologies I know in addition to a slight blurb about me and the education I have received at DigitalCrafts and UW
 class About extends Component{
 
 
