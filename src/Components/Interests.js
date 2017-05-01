@@ -96,6 +96,24 @@ class Interests extends Component{
 										</tr>
 
 										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/30117284-carve-the-mark?from_search=true' target="_blank">Carve the Mark</a></td>
+											<td className='data-entry'>Veronica Roth</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/12030438-the-start-up-of-you' target="_blank">The Start-Up of You</a></td>
+											<td className='data-entry'>Reid Hoffman & Ben Casnocha</td>										
+											<td className='data-entry'>5/2/17</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince?ac=1&from_search=true' target="_blank">Harry Potter and the Half-Blood Prince</a></td>
+											<td className='data-entry'>J.K. Rowling</td>										
+											<td className='data-entry'>4/27/2017</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/42547.The_Autobiography_of_Martin_Luther_King_Jr_' target="_blank">The Autobiography of Martin Luther King Jr.</a></td>
 											<td className='data-entry'>Martin Luther King Jr.</td>										
 											<td className='data-entry'>4/21/2017</td>										
