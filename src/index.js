@@ -17,6 +17,8 @@ import './CSS/styles.css'
 // bring in the router - bring em out bring em out
 import { Router, IndexRoute, Route, hashHistory } from 'react-router'
 
+// holds all routes for portfolio
+
 ReactDOM.render(
     <Router history={hashHistory} >
 		<Route path='/' component={App}>			
