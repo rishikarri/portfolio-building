@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link, IndexLink } from 'react-router';
 
+// This holds all of the navigation elements for my website
+
 class SideNavBar extends Component{
 	openNav(){
 		console.log('open nav')
