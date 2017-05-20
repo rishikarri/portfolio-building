@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // This section holds my interests in addition to whatever i'm reading at the moment 
 // Interests have a spin attached to them - reading section has author, date completed, book and link to goodreads
-// need to add tools of titans
 class Interests extends Component{
 
 	
