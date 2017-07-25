@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 // Interests have a spin attached to them - reading section has author, date completed, book and link to goodreads
 
 
-// need to add united as one
 
 class Interests extends Component{
 
