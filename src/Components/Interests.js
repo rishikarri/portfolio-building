@@ -92,7 +92,7 @@ class Interests extends Component{
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/27161189-united-as-one' target="_blank">United as One</a></td>
 											<td className='data-entry'>Pittacus Lore</td>										
-											<td className='data-entry'>Currently Reading</td>										
+											<td className='data-entry'>7/28/2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
