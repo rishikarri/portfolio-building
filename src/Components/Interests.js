@@ -92,6 +92,12 @@ class Interests extends Component{
 										</tr>
 
 										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/88815.The_Reluctant_Fundamentalist' target="_blank">Moth Smoke</a></td>
+											<td className='data-entry'>Mohsin Hamid</td>										
+											<td className='data-entry'>8/19/2017</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/88815.The_Reluctant_Fundamentalist' target="_blank">The Reluctant Fundamentalist</a></td>
 											<td className='data-entry'>Mohsin Hamid</td>										
 											<td className='data-entry'>8/19/2017</td>										
