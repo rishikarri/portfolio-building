@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 //contact component will hold additional information about me and allow users to reach out 
-
+// should add eslint 
+// potentially add react helmet
 
 class Contact extends Component{
-
 
 	render(){
 		return(
