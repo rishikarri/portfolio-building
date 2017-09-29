@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 // should add eslint 
 // potentially add react helmet
 
+// add in stack overflow link here 
+
 class Contact extends Component{
 
 	render(){
