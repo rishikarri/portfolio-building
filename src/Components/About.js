@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 // This section contains the technologies I know in addition to a slight blurb about me and the education I have received at DigitalCrafts and UW
 
+// add continuing education 
+//can put in udemy courses and Harvard CS 50 once you complete it 
+
 class About extends Component{
 
 
