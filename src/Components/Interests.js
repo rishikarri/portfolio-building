@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 // This section holds my interests in addition to whatever i'm reading at the moment 
 //need to add my modern romance by azi
 
+// Should refactor so that this is not hardcoded.
+// 1. create a function that returns JSX and takes in three parameters, URL, author, Book 
+// 2. create an array with all of the objects that have these three
+// 3. put the most recent at top and then put the currently reading above those 
+
 class Interests extends Component{
 	
 	render(){
@@ -279,8 +284,4 @@ class Interests extends Component{
 export default Interests;
 
 
-										// <tr className='taller-table-rows'>					
-										// 	<td className='data-entry'><a href='http://www.goodreads.com/book/show/31823677-tools-of-titans' target="_blank">Tools of Titans</a></td>
-										// 	<td className='data-entry'>Timothy Ferriss</td>										
-										// 	<td className='data-entry'>Currently Reading</td>										
-										// </tr>
+									

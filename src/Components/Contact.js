@@ -5,6 +5,8 @@ import React, { Component } from 'react';
 
 // add in stack overflow link here 
 
+// add copyright tag here 
+
 class Contact extends Component{
 
 	render(){
