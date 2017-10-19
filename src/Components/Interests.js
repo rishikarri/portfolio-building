@@ -92,7 +92,7 @@ class Interests extends Component{
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/34273236-little-fires-everywhere' target="_blank">The Alchemist</a></td>
 											<td className='data-entry'>Paulo Coelho</td>										
-											<td className='data-entry'>Currently Reading</td>										
+											<td className='data-entry'>10/19/2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
