@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ContinuingEducation from '../ContinuingEducation/';
 
 // This section contains the technologies I know in addition to a slight blurb about me and the education I have received at DigitalCrafts and UW
 
@@ -37,6 +38,11 @@ class About extends Component{
 					<div className='about-me-header'>Education</div>
 					
 					<hr className='heading-spacer-about-me'/>				
+
+					<div>
+						{/*<div><ContinuingEducation /></div>*/}
+						<div> </div>
+					</div>
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
 					{/* Text for dc description */}
