@@ -17,7 +17,7 @@ class ContinuingEducation extends Component{
 		                <li style={{fontSize: 14, color: 'black'}}><a target="_blank" href="http://online-learning.harvard.edu/course/cs50-introduction-computer-science">CS50 - Introduction to Computer Science </a>- 0% Complete </li>
 					</p>*/}
 
-					<div className="col-xs-12" style={{display: 'flex'}}><a href="https://www.udemy.com/">Udemy</a></div>
+					<div className="col-xs-12" style={{display: 'flex'}}><a target="_blank" href="https://www.udemy.com/">Udemy</a></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
 		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider - 29% Complete</li>
 		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - 71% Complete</li>
