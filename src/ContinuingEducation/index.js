@@ -19,21 +19,21 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><a target="_blank" href="https://www.udemy.com/">Udemy</a></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider - 29% Complete</li>
-		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - 71% Complete</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider - 75% Complete</li> 
+		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider - <em>29% Complete</em></li>
+		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - <em>71% Complete</em></li>
+		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider - <em>75% Complete</em></li> 
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Web Development Books</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-		                <li style={{ fontSize: 14, color: 'black'}}>A Smarter Way to Learn JavaScript - Mark Myers - 100% Complete</li>
-		                <li style={{ fontSize: 14, color: 'black',}}>A Smarter Way to Learn HTML & CSS - Mark Myers - 100% Complete</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>Learn Python the Hard Way - Zed Shaw - 100% Complete</li> 
+		                <li style={{ fontSize: 14, color: 'black'}}>A Smarter Way to Learn JavaScript - Mark Myers - <em>100% Complete</em></li>
+		                <li style={{ fontSize: 14, color: 'black',}}>A Smarter Way to Learn HTML & CSS - Mark Myers - <em>100% Complete</em></li>
+		                <li style={{ fontSize: 14, color: 'black'}}>Learn Python the Hard Way - Zed Shaw - <em>100% Complete</em></li> 
 					</p>
 
-					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Books Completed Since 1/1/2017</span></div>
+					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-		                <li style={{ fontSize: 14, color: 'black'}}>24 (See Interests Section for Detail)</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>24 Books Read Since 1/1/2017 (See Interests Section for Details)</li>
 					</p>
 
 
