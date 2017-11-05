@@ -20,8 +20,9 @@ class ContinuingEducation extends Component{
 					<div className="col-xs-12" style={{display: 'flex'}}><a target="_blank" href="https://www.udemy.com/">Udemy</a></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
 		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider - <em>29% Complete</em></li>
-		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - <em>71% Complete</em></li>
 		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider - <em>75% Complete</em></li> 
+		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - <em>91% Complete</em></li>
+
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Web Development Books</span></div>
