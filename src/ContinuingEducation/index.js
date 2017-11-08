@@ -21,7 +21,7 @@ class ContinuingEducation extends Component{
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
 		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider - <em>29% Complete</em></li>
 		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider - <em>75% Complete</em></li> 
-		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - <em>91% Complete</em></li>
+		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea - <em>100% Complete</em></li>
 
 					</p>
 
