@@ -89,6 +89,13 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/23453112-modern-romance' target="_blank">Modern Romance</a></td>
+											<td className='data-entry'>Aziz Ansari, Eric Klinenberg</td>										
+											<td className='data-entry'>11/8/2017</td>										
+										</tr>
+
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/865.The_Alchemist' target="_blank">The Alchemist</a></td>
 											<td className='data-entry'>Paulo Coelho</td>										
