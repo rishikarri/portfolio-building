@@ -89,19 +89,23 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>
-
-										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/7445.The_Glass_Castle' target="_blank">The Glass Castle</a></td>
-											<td className='data-entry'>Jeannette Walls</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>
-
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/35259724-behold-the-dreamers' target="_blank">Behold the Dreamers</a></td>
 											<td className='data-entry'>Imbolo Mbue</td>										
 											<td className='data-entry'>Currently Reading</td>										
 										</tr>
 
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/6708.The_Power_of_Now' target="_blank">The Power of Now</a></td>
+											<td className='data-entry'>Eckhart Tolle</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/7445.The_Glass_Castle' target="_blank">The Glass Castle</a></td>
+											<td className='data-entry'>Jeannette Walls</td>										
+											<td className='data-entry'>12/3/2017</td>										
+										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/15815364-how-to-get-filthy-rich-in-rising-asia' target="_blank">How to Get Filthy Rich in Rising Asia</a></td>
