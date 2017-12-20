@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 // This section holds my interests in addition to whatever i'm reading at the moment 
-//add shoe dog 
-// add the new new thing 
-// add blockchain revolution 
 
+// add in The bluest eye and smartest kids in the world 
 
 class Interests extends Component{
 	
@@ -87,6 +85,12 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
+											<td className='data-entry'>Toni Morrison</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>	
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/17986421-the-new-new-thing' target="_blank">The New New Thing</a></td>
