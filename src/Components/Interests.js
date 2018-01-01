@@ -96,13 +96,7 @@ class Interests extends Component{
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/17986421-the-new-new-thing' target="_blank">The New New Thing</a></td>
 											<td className='data-entry'>Michael Lewis</td>										
 											<td className='data-entry'>Currently Reading</td>										
-										</tr>	
-										
-										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/27220736-shoe-dog' target="_blank">Shoe Dog</a></td>
-											<td className='data-entry'>Phil Knight</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>	
+										</tr>																					
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/25894041-blockchain-revolution' target="_blank">Blockchain Revolution</a></td>
@@ -113,8 +107,14 @@ class Interests extends Component{
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/35259724-behold-the-dreamers' target="_blank">Behold the Dreamers</a></td>
 											<td className='data-entry'>Imbolo Mbue</td>										
-											<td className='data-entry'>Currently Reading</td>										
+											<td className='data-entry'>12/30/2017</td>										
 										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/27220736-shoe-dog' target="_blank">Shoe Dog</a></td>
+											<td className='data-entry'>Phil Knight</td>										
+											<td className='data-entry'>12/26/17</td>										
+										</tr>	
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/6708.The_Power_of_Now' target="_blank">The Power of Now</a></td>
