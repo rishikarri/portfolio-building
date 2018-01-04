@@ -25,8 +25,9 @@ class ContinuingEducation extends Component{
 
 					</p>
 
-					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Web Development Books</span></div>
+					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Tech / Business Books</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
+						<li style={{ fontSize: 14, color: 'black'}}>Shoe Dog - Phil Knight - <em>100% Complete</em></li>
 		                <li style={{ fontSize: 14, color: 'black'}}>A Smarter Way to Learn JavaScript - Mark Myers - <em>100% Complete</em></li>
 		                <li style={{ fontSize: 14, color: 'black',}}>A Smarter Way to Learn HTML & CSS - Mark Myers - <em>100% Complete</em></li>
 		                <li style={{ fontSize: 14, color: 'black'}}>Learn Python the Hard Way - Zed Shaw - <em>100% Complete</em></li> 
