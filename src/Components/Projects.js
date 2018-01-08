@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// add hrimagination.life to this
 
 class Project extends Component{
 

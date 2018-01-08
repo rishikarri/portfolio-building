@@ -80,7 +80,7 @@ class Contact extends Component{
 					
 				</div>
 
-				 <div className='col-xs-12' style={{marginTop: 180}}> Copyright © www.rishikarri.com 2017. </div>
+				 <div className='col-xs-12' style={{marginTop: 180}}> Copyright © www.rishikarri.com 2018. </div>
 
 			</div>
 		)

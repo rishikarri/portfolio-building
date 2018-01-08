@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 // This section holds my interests in addition to whatever i'm reading at the moment 
 
-// add in The bluest eye and smartest kids in the world 
-
 class Interests extends Component{
 	
 	render(){
