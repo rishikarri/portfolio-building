@@ -82,13 +82,7 @@ class Interests extends Component{
 										</tr>
 									</thead>
 
-									<tbody>
-
-										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
-											<td className='data-entry'>Toni Morrison</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>	
+									<tbody>										
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/17986421-the-new-new-thing' target="_blank">The New New Thing</a></td>
@@ -97,9 +91,15 @@ class Interests extends Component{
 										</tr>																					
 
 										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
+											<td className='data-entry'>Toni Morrison</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/13259960-the-smartest-kids-in-the-world' target="_blank">The Smartest Kids in the World</a></td>
 											<td className='data-entry'>Amanda Ripley</td>										
-											<td className='data-entry'>Currently Reading</td>										
+											<td className='data-entry'>1/9/2018</td>										
 										</tr>										
 
 										<tr className='taller-table-rows'>					

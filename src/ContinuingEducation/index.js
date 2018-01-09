@@ -26,16 +26,17 @@ class ContinuingEducation extends Component{
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Tech / Business Books Read</span></div>
-					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-						<li style={{ fontSize: 14, color: 'black'}}>Shoe Dog - Phil Knight</li>
+					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 						
 		                <li style={{ fontSize: 14, color: 'black'}}>A Smarter Way to Learn JavaScript - Mark Myers</li>
 		                <li style={{ fontSize: 14, color: 'black',}}>A Smarter Way to Learn HTML & CSS - Mark Myers</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>Learn Python the Hard Way - Zed Shaw</li> 
+		                <li style={{ fontSize: 14, color: 'black'}}>Shoe Dog - Phil Knight</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>The Startup of You - Reid Hoffman & Ben Casnocha</li>
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-		                <li style={{ fontSize: 14, color: 'black'}}>30 Books Read Since 1/1/2017 (See Interests Section for Details)</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>31 Books Read Since 1/1/2017 (See Interests Section for Details)</li>
 					</p>
 
 
