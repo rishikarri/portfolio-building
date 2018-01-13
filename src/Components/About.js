@@ -6,7 +6,7 @@ import ContinuingEducation from '../ContinuingEducation/';
 // add continuing education 
 //can put in udemy courses and Harvard CS 50 once you complete it 
 
-//skills section - add JIRA, Immutable, Mocha / Chai
+//skills section - add JIRA, Immutable, Mocha / Chai, google maps api, material ui 
 class About extends Component{
 
 
