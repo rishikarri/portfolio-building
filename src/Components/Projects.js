@@ -97,18 +97,18 @@ class Project extends Component{
 
 						<div className='section-heading  project-image-div'>
 							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
-							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0, you must retreat!</p>
-							<p> HTML & CSS, JavaScript (code is intentionally written without frameworks)</p>
+							<p>I enjoy making music in my free time and built a site for the music my college roommate and I put together. </p>
+							<p> JavaScript - React.JS, Styled Components  </p>
 							{/*Link to youtube video */}
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
-								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button className='btn btn-primary'>Repository</button></a>
+								<a className='margin-right' target="_blank" href='http://www.hrimagination.life/'><button className='btn btn-primary'> Website </button></a>
+								<a target="_blank" href='https://github.com/rishikarri/hr-imagination-website-'><button className='btn btn-primary'>Repository</button></a>
 							</div>
 						</div>
 					</div>
 
 					<div className='col-xs-12 col-sm-5'>						
-						<img className='project-image margin-above' src='../../Images/Projects-Page/survivor-screenshot.png' />
+						<img className='project-image margin-above' src='../../Images/albumCover.jpg' />
 					</div>
 
 
