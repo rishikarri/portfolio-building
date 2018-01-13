@@ -96,7 +96,7 @@ class Project extends Component{
 						
 
 						<div className='section-heading  project-image-div'>
-							<h2>Village Savior</h2>
+							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
 							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0, you must retreat!</p>
 							<p> HTML & CSS, JavaScript (code is intentionally written without frameworks)</p>
 							{/*Link to youtube video */}
