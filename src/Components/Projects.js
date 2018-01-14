@@ -93,7 +93,7 @@ class Project extends Component{
 				<div className='row kill-margin margin-above-heavy'>
 
 					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
-						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
+						<img className='project-image-album-cover' src='../../Images/albumCover.jpg'  />
 					</div>
 
 					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
@@ -120,32 +120,6 @@ class Project extends Component{
 
 
 				</div>
-				{/*HR imagination*/}
-				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
-				<div className='row kill-margin margin-above-heavy'>
-
-					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>
-						
-
-						<div className='section-heading  project-image-div'>
-							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
-							<p>I enjoy making music in my free time and built a site for the music my college roommate and I put together. </p>
-							<p> JavaScript - React.JS, Styled Components  </p>
-							{/*Link to youtube video */}
-							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='http://www.hrimagination.life/'><button className='btn btn-primary'> Website </button></a>
-								<a target="_blank" href='https://github.com/rishikarri/hr-imagination-website-'><button className='btn btn-primary'>Repository</button></a>
-							</div>
-						</div>
-					</div>
-
-					<div className='col-xs-12 col-sm-5'>						
-						<img className='project-image margin-above' src='../../Images/albumCover.jpg' />
-					</div>
-
-
-				</div>
-
 
 			</div>
 		)

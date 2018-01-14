@@ -474,27 +474,33 @@
 }
 
 /* line 518, ../../compass/sass/styles.scss */
+.project-image-album-cover {
+  width: 55%;
+  border-radius: 3px;
+}
+
+/* line 524, ../../compass/sass/styles.scss */
 .show-word-worm {
   display: none;
   text-align: center;
 }
 
-/* line 526, ../../compass/sass/styles.scss */
+/* line 532, ../../compass/sass/styles.scss */
 .fa-5x {
   color: #337ab7;
 }
 
-/* line 529, ../../compass/sass/styles.scss */
+/* line 535, ../../compass/sass/styles.scss */
 .move-contact-me-section-down {
   margin-top: 170px;
 }
 
-/* line 532, ../../compass/sass/styles.scss */
+/* line 538, ../../compass/sass/styles.scss */
 .contact-me-section {
   border-top: 2px solid lightgrey;
 }
 
-/* line 541, ../../compass/sass/styles.scss */
+/* line 547, ../../compass/sass/styles.scss */
 .no-bullet {
   padding-left: 0;
   margin-left: -5px;
@@ -502,23 +508,23 @@
   text-align: center;
 }
 
-/* line 549, ../../compass/sass/styles.scss */
+/* line 555, ../../compass/sass/styles.scss */
 .give-me-some-space {
   margin-left: 50px;
   display: inline-block;
 }
 
-/* line 554, ../../compass/sass/styles.scss */
+/* line 560, ../../compass/sass/styles.scss */
 .margin-right {
   margin-right: 30px;
 }
 
-/* line 566, ../../compass/sass/styles.scss */
+/* line 572, ../../compass/sass/styles.scss */
 html {
   height: 100%;
 }
 
-/* line 569, ../../compass/sass/styles.scss */
+/* line 575, ../../compass/sass/styles.scss */
 body {
   /* background: rgb(20, 20, 20); */
   overflow: scroll;
@@ -526,7 +532,7 @@ body {
   height: 100%;
 }
 
-/* line 579, ../../compass/sass/styles.scss */
+/* line 585, ../../compass/sass/styles.scss */
 .animation-container {
   position: relative;
   display: block;
@@ -536,7 +542,7 @@ body {
 }
 
 /* //hi block code */
-/* line 590, ../../compass/sass/styles.scss */
+/* line 596, ../../compass/sass/styles.scss */
 #hi-animation-block {
   height: 25%;
   width: 10%;
@@ -544,7 +550,7 @@ body {
   padding-left: 0.4%;
 }
 
-/* line 598, ../../compass/sass/styles.scss */
+/* line 604, ../../compass/sass/styles.scss */
 #i-animation-block {
   height: 100%;
   width: 40%;
@@ -552,7 +558,7 @@ body {
   display: inline-block;
 }
 
-/* line 606, ../../compass/sass/styles.scss */
+/* line 612, ../../compass/sass/styles.scss */
 #i-1-block {
   width: 26%;
   height: 80%;
@@ -563,7 +569,7 @@ body {
   position: absolute;
 }
 
-/* line 621, ../../compass/sass/styles.scss */
+/* line 627, ../../compass/sass/styles.scss */
 #h-animation-block {
   height: 100%;
   width: 40%;
@@ -572,7 +578,7 @@ body {
   left: 15%;
 }
 
-/* line 628, ../../compass/sass/styles.scss */
+/* line 634, ../../compass/sass/styles.scss */
 #h-1Block {
   width: 31%;
   height: 80%;
@@ -583,7 +589,7 @@ body {
   /* top: 20%; */
 }
 
-/* line 639, ../../compass/sass/styles.scss */
+/* line 645, ../../compass/sass/styles.scss */
 #h-2Block {
   width: 90%;
   height: 11%;
@@ -595,7 +601,7 @@ body {
   position: absolute;
 }
 
-/* line 650, ../../compass/sass/styles.scss */
+/* line 656, ../../compass/sass/styles.scss */
 #h-3Block {
   width: 31%;
   height: 80%;
@@ -607,7 +613,7 @@ body {
 }
 
 /* //regular animation blocks below */
-/* line 662, ../../compass/sass/styles.scss */
+/* line 668, ../../compass/sass/styles.scss */
 .rectangleAnimation {
   position: relative;
   display: block;
@@ -617,7 +623,7 @@ body {
   overflow: hidden;
 }
 
-/* line 678, ../../compass/sass/styles.scss */
+/* line 684, ../../compass/sass/styles.scss */
 .rectangleAnimation div {
   margin-top: 5%;
   height: 25%;
@@ -628,27 +634,27 @@ body {
 }
 
 /* animations below */
-/* line 691, ../../compass/sass/styles.scss */
+/* line 697, ../../compass/sass/styles.scss */
 #divAnimationBlock1 {
   animation: wave 17s  3.2s linear infinite;
 }
 
-/* line 692, ../../compass/sass/styles.scss */
+/* line 698, ../../compass/sass/styles.scss */
 #divAnimationBlock2 {
   animation: wave 17s  2.4s linear infinite;
 }
 
-/* line 693, ../../compass/sass/styles.scss */
+/* line 699, ../../compass/sass/styles.scss */
 #divAnimationBlock3 {
   animation: wave 17s  1.6s linear infinite;
 }
 
-/* line 694, ../../compass/sass/styles.scss */
+/* line 700, ../../compass/sass/styles.scss */
 #divAnimationBlock4 {
   animation: wave 17s   0.8s linear infinite;
 }
 
-/* line 696, ../../compass/sass/styles.scss */
+/* line 702, ../../compass/sass/styles.scss */
 #hi-animation-block {
   animation: hiWave 17s   0.1s linear infinite;
 }
@@ -657,82 +663,82 @@ body {
 #divAnimationBlock3  { animation: wave 17s -15.455s linear infinite;}
 #divAnimationBlock4 { animation: wave 17s -14.682s linear infinite;} */
 /* #divAnimationBlock5  { animation: wave 17s -13.909s linear infinite;} */
-/* line 701, ../../compass/sass/styles.scss */
+/* line 707, ../../compass/sass/styles.scss */
 #divAnimationBlock5 {
   animation: wave 17s -12.2s linear infinite;
 }
 
-/* line 702, ../../compass/sass/styles.scss */
+/* line 708, ../../compass/sass/styles.scss */
 #divAnimationBlock6 {
   animation: wave 17s -11.4s linear infinite;
 }
 
-/* line 703, ../../compass/sass/styles.scss */
+/* line 709, ../../compass/sass/styles.scss */
 #divAnimationBlock7 {
   animation: wave 17s -10.8s linear infinite;
 }
 
-/* line 704, ../../compass/sass/styles.scss */
+/* line 710, ../../compass/sass/styles.scss */
 #divAnimationBlock8 {
   animation: wave 17s -10.0s linear infinite;
 }
 
-/* line 705, ../../compass/sass/styles.scss */
+/* line 711, ../../compass/sass/styles.scss */
 #divAnimationBlock9 {
   animation: wave 17s -9.2s linear infinite;
 }
 
-/* line 706, ../../compass/sass/styles.scss */
+/* line 712, ../../compass/sass/styles.scss */
 #divAnimationBlock10 {
   animation: wave 17s  -8.4s linear infinite;
 }
 
-/* line 707, ../../compass/sass/styles.scss */
+/* line 713, ../../compass/sass/styles.scss */
 #divAnimationBlock11 {
   animation: wave 17s  -7.6s linear infinite;
 }
 
-/* line 708, ../../compass/sass/styles.scss */
+/* line 714, ../../compass/sass/styles.scss */
 #divAnimationBlock12 {
   animation: wave 17s  -7.0s linear infinite;
 }
 
-/* line 709, ../../compass/sass/styles.scss */
+/* line 715, ../../compass/sass/styles.scss */
 #divAnimationBlock13 {
   animation: wave 17s  -6.2s linear infinite;
 }
 
-/* line 710, ../../compass/sass/styles.scss */
+/* line 716, ../../compass/sass/styles.scss */
 #divAnimationBlock14 {
   animation: wave 17s  -5.6s linear infinite;
 }
 
-/* line 711, ../../compass/sass/styles.scss */
+/* line 717, ../../compass/sass/styles.scss */
 #divAnimationBlock15 {
   animation: wave 17s  -4.8s linear infinite;
 }
 
-/* line 712, ../../compass/sass/styles.scss */
+/* line 718, ../../compass/sass/styles.scss */
 #divAnimationBlock16 {
   animation: wave 17s  -4.2s linear infinite;
 }
 
-/* line 713, ../../compass/sass/styles.scss */
+/* line 719, ../../compass/sass/styles.scss */
 #divAnimationBlock17 {
   animation: wave 17s  -3.6s linear infinite;
 }
 
-/* line 714, ../../compass/sass/styles.scss */
+/* line 720, ../../compass/sass/styles.scss */
 #divAnimationBlock18 {
   animation: wave 17s  -2.8s linear infinite;
 }
 
-/* line 715, ../../compass/sass/styles.scss */
+/* line 721, ../../compass/sass/styles.scss */
 #divAnimationBlock19 {
   animation: wave 17s  -2.0s linear infinite;
 }
 
-/* line 718, ../../compass/sass/styles.scss */
+/* line 724, ../../compass/sass/styles.scss */
 #divAnimationBlock20 {
   animation: wave 17s  4.0s linear infinite;
 }
