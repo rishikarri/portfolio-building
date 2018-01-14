@@ -101,8 +101,8 @@ class Project extends Component{
 						<div className='section-heading'>
 							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
 
-							<p>I enjoy making music in my free time and built a site for the music my college roommate and I put together. </p>
-							<p> JavaScript - React.JS, Styled Components  </p>
+							<p>I enjoy making music in my free time and built a site for the music group my college roommate and I put together. </p>
+							<p> JavaScript - React.js, Styled Components  </p>
 
 							<div className='repo-demo-links'>
 								<a className='margin-right' target="_blank" href='http://www.hrimagination.life/'><button className='btn btn-primary'> Website </button></a>
