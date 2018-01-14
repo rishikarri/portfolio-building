@@ -88,6 +88,38 @@ class Project extends Component{
 
 
 				</div>
+
+				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
+				<div className='row kill-margin margin-above-heavy'>
+
+					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
+						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
+					</div>
+
+					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
+
+						<div className='section-heading'>
+							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
+
+							<p>I enjoy making music in my free time and built a site for the music my college roommate and I put together. </p>
+							<p> JavaScript - React.JS, Styled Components  </p>
+
+							<div className='repo-demo-links'>
+								<a className='margin-right' target="_blank" href='http://www.hrimagination.life/'><button className='btn btn-primary'> Website </button></a>
+								<a target="_blank" href='https://github.com/rishikarri/hr-imagination-website-'><button className='btn btn-primary'>Repository</button></a>
+							</div>
+						</div>						
+					</div>
+
+					
+					
+
+					<div className='col-xs-12 show-word-worm col-sm-5 col-sm-offset-1'>
+						<img className='project-image margin-above' src='../../Images/albumCover.jpg' />
+					</div>
+
+
+				</div>
 				{/*HR imagination*/}
 				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
 				<div className='row kill-margin margin-above-heavy'>
