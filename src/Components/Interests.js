@@ -97,6 +97,12 @@ class Interests extends Component{
 										</tr>
 
 										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/6480781-open' target="_blank">Open</a></td>
+											<td className='data-entry'>Andre Agassi, J.R. Moehringer</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea' target="_blank">The Old Man and the Sea</a></td>
 											<td className='data-entry'>Ernest Hemingway</td>										
 											<td className='data-entry'>1/14/2018</td>										
