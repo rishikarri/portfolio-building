@@ -34,7 +34,7 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-		                <li style={{ fontSize: 14, color: 'black'}}>32 Books Read Since 1/1/2017 (See Interests Section for Details)</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>33 Books Read Since 1/1/2017 (See Interests Section for Details)</li>
 					</p>
 
 
