@@ -54,7 +54,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<a target="_blank" href='../../Files/Rishi_Karri_Resume_1.13.2018.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='../../Files/Rishi_Karri_Resume_2.4.2018.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Resume
