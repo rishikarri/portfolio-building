@@ -85,21 +85,28 @@ class Interests extends Component{
 									<tbody>										
 
 										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/17986421-the-new-new-thing' target="_blank">The New New Thing</a></td>
-											<td className='data-entry'>Michael Lewis</td>										
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/18693763-everything-i-never-told-you' target="_blank">Everything I Never Told You</a></td>
+											<td className='data-entry'>Celeste Ng</td>										
 											<td className='data-entry'>Currently Reading</td>										
 										</tr>																					
-
-										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
-											<td className='data-entry'>Toni Morrison</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>
+										
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/227463.A_Clockwork_Orange' target="_blank">A Clockwork Orange</a></td>
 											<td className='data-entry'>Anthony Burgess</td>										
 											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
+											<td className='data-entry'>Toni Morrison</td>										
+											<td className='data-entry'>2/7/2018</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists' target="_blank">We Should All Be Feminists</a></td>
+											<td className='data-entry'>Chimamanda Ngozi Adichie</td>										
+											<td className='data-entry'>2/4/2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
