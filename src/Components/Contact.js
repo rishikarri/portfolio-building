@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 //contact component will hold additional information about me and allow users to reach out 
 // should add eslint 
-// potentially add react helmet
 
 // add in stack overflow link here 
 
 // add copyright tag here 
+
+
 
 class Contact extends Component{
 
@@ -54,7 +55,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<a target="_blank" href='../../Files/Rishi_Karri_Resume_2.4.2018.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='../../Files/Rishi_Karri_Resume_2.18.2018.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Resume
