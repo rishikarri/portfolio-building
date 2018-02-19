@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 // This section holds my interests in addition to whatever i'm reading at the moment 
 
+const generateReadingEntry = (title, author, urlToUse, dateCompleted) => (
+	<tr className='taller-table-rows'>					
+		<td className='data-entry'><a href={urlToUse} target="_blank">{title}</a></td>
+		<td className='data-entry'>{author}</td>										
+		<td className='data-entry'>{dateCompleted}</td>										
+	</tr>
+)
+
 class Interests extends Component{
 	
 	render(){
@@ -84,18 +92,20 @@ class Interests extends Component{
 
 									<tbody>										
 
+																											
+										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', 'Currently Reading')}																				
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='https://www.goodreads.com/book/show/890.Of_Mice_and_Men' target="_blank">Of Mice and Men</a></td>
+											<td className='data-entry'>John Steinbeck</td>										
+											<td className='data-entry'>2/18/2018</td>										
+										</tr>
+
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/18693763-everything-i-never-told-you' target="_blank">Everything I Never Told You</a></td>
 											<td className='data-entry'>Celeste Ng</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>																					
-										
-
-										<tr className='taller-table-rows'>					
-											<td className='data-entry'><a href='https://www.goodreads.com/book/show/227463.A_Clockwork_Orange' target="_blank">A Clockwork Orange</a></td>
-											<td className='data-entry'>Anthony Burgess</td>										
-											<td className='data-entry'>Currently Reading</td>										
-										</tr>
+											<td className='data-entry'>2/13/2018</td>										
+										</tr>				
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
