@@ -92,8 +92,8 @@ class Interests extends Component{
 
 									<tbody>										
 
-																											
-										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', 'Currently Reading')}																				
+										{generateReadingEntry('The Tender Bar', 'J.R. Moehringer', 'https://www.goodreads.com/book/show/144977.The_Tender_Bar', 'Currently Reading')}																																					
+										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', '2/28/2018')}																				
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/890.Of_Mice_and_Men' target="_blank">Of Mice and Men</a></td>
