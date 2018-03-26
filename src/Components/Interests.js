@@ -91,8 +91,10 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>										
-										{generateReadingEntry('Astrophysics for People in a Hurry', 'Neil deGrasse Tyson ', 'https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry?ac=1&from_search=true', 'Currently Reading')}
+										
 										{generateReadingEntry('The Tender Bar', 'J.R. Moehringer', 'https://www.goodreads.com/book/show/144977.The_Tender_Bar', 'Currently Reading')}
+										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', 'Currently Reading')}
+										{generateReadingEntry('Astrophysics for People in a Hurry', 'Neil deGrasse Tyson ', 'https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry?ac=1&from_search=true', '3/25/2018')}
 										{generateReadingEntry('Fight Club', 'Chuck Palahniuk', 'https://www.goodreads.com/book/show/5759.Fight_Club', '3/15/2018')}																																																																										
 										{generateReadingEntry('Practicing the Power of Now', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/6709.Practicing_the_Power_of_Now', '3/5/2018')}																				
 										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', '2/28/2018')}																				
