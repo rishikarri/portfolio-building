@@ -6,7 +6,7 @@ import ContinuingEducation from '../ContinuingEducation/';
 // add continuing education 
 //can put in udemy courses and Harvard CS 50 once you complete it 
 
-//skills section - add JIRA, Immutable, Mocha / Chai, google maps api, material ui 
+//skills section - add JIRA, Immutable, Mocha / Chai, google maps api, material ui, C
 class About extends Component{
 
 
@@ -23,7 +23,7 @@ class About extends Component{
 					</div>	
 
 					<div className='col-xs-12 col-sm-9 col-md-10 col-lg-6 description-text-smaller margin-above padding-right-zero'>
-					Prior to web development, I worked as an investment banking analyst (Technology & Services Group) for <a target="_blank" href='http://www.rwbaird.com/investment-banking/'>Baird.</a>
+					Prior to software development, I worked as an investment banking analyst (Technology & Services Group) for <a target="_blank" href='http://www.rwbaird.com/investment-banking/'>Baird.</a>
 					</div>			
 				</div>
 
