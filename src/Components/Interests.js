@@ -13,7 +13,7 @@ class Interests extends Component{
 	
 	render(){
 		var gandhiQuote = '“Live as if you were to die tomorrow. Learn as if you were to live forever.” —Gandhi';
-		var whatIamReading = "What I'm reading"
+		var whatIamReading = "What I'm Reading"
 		return(
 			<div className="padding-none col-xs-12">
 				<div className='col-xs-12'>			
@@ -91,10 +91,10 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>										
-										
-										{generateReadingEntry('The Tender Bar', 'J.R. Moehringer', 'https://www.goodreads.com/book/show/144977.The_Tender_Bar', 'Currently Reading')}
-										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', 'Currently Reading')}
-										{generateReadingEntry('Purple Hibiscus', 'Chimamanda Ngozi Adichie', 'https://www.goodreads.com/book/show/126381.Purple_Hibiscus', 'Currently Reading')}
+										{generateReadingEntry('The C Programming Language', 'Brian Kernighan, Dennis Ritchie', 'https://www.goodreads.com/book/show/515601.The_C_Programming_Language?ac=1&from_search=true', 'Currently Reading')}
+										{generateReadingEntry('The Hate U Give', 'Angie Thomas', 'https://www.goodreads.com/book/show/32075671-the-hate-u-give', '5/18/2018')}
+										{generateReadingEntry('Purple Hibiscus', 'Chimamanda Ngozi Adichie', 'https://www.goodreads.com/book/show/126381.Purple_Hibiscus', '5/5/2018')}
+										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', '4/25/2018')}
 										{generateReadingEntry("The Hitchhiker's Guide to the Galaxy", 'Douglas Adams ', 'https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy', '4/05/2018')}
 										{generateReadingEntry('Astrophysics for People in a Hurry', 'Neil deGrasse Tyson ', 'https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry?ac=1&from_search=true', '3/25/2018')}
 										{generateReadingEntry('Fight Club', 'Chuck Palahniuk', 'https://www.goodreads.com/book/show/5759.Fight_Club', '3/15/2018')}																																																																										
