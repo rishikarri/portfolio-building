@@ -91,7 +91,7 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>										
-										{generateReadingEntry('The C Programming Language', 'Brian Kernighan, Dennis Ritchie', 'https://www.goodreads.com/book/show/515601.The_C_Programming_Language?ac=1&from_search=true', 'Currently Reading')}
+										{generateReadingEntry('The C Programming Language', 'Brian Kernighan, Dennis Ritchie', 'https://www.goodreads.com/book/show/515601.The_C_Programming_Language?ac=1&from_search=true', '6/10/2018')}
 										{generateReadingEntry('The Hate U Give', 'Angie Thomas', 'https://www.goodreads.com/book/show/32075671-the-hate-u-give', '5/18/2018')}
 										{generateReadingEntry('Purple Hibiscus', 'Chimamanda Ngozi Adichie', 'https://www.goodreads.com/book/show/126381.Purple_Hibiscus', '5/5/2018')}
 										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', '4/25/2018')}
