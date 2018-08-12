@@ -91,6 +91,7 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>										
+										{generateReadingEntry('The Alice Network', 'Kate Quinn', 'https://www.goodreads.com/book/show/32051912-the-alice-network', 'Currently Reading')}
 										{generateReadingEntry('The Pragmatic Programmer', 'Andy Hunt, Dave Thomas', 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer', '7/31/2018')}
 										{generateReadingEntry('Manhattan Beach', 'Jennifer Egan', 'https://www.goodreads.com/book/show/34467031-manhattan-beach', '7/02/2018')}
 										{generateReadingEntry('A New Earth', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/76334.A_New_Earth', '6/18/2018')}
