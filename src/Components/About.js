@@ -93,10 +93,6 @@ class About extends Component{
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-xs-4 skill-image-only-hover'><img className='skill-image' src='../../Images/Icons/Sass.png' />
-							<a href="http://sass-lang.com/" target="_blank"><div>Sass</div></a>
-						</div>
-
 						<div className='col-xs-4'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' />
 							<a href="https://www.javascript.com/" target="_blank"><div>JavaScript</div></a>
 						</div>
@@ -104,18 +100,20 @@ class About extends Component{
 						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/jquery.png' />
 							<a href="https://jquery.com/" target="_blank"><div>jQuery</div></a>
-						</div>						
+						</div>	
+
+						<div className='col-xs-4'>
+							<img className='skill-image' src='../../Images/Icons/React.png' />
+							<a href='https://facebook.github.io/react/' target="_blank"><div>React.js</div></a>
+
+						</div>					
 
 					</div>	
 
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/React.png' />
-							<a href='https://facebook.github.io/react/' target="_blank"><div>React.js</div></a>
-
-						</div>
+						
 
 						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/Redux.png' />
@@ -127,25 +125,12 @@ class About extends Component{
 							<img className='skill-image-only-hover' src='../../Images/Icons/nodejs.png' />
 							<a href='https://nodejs.org/en/' target="_blank"><div>Node.js</div></a>
 						</div>
-						
-					</div>	
-
-					<div className='col-xs-12 margin-above'> 	
 
 						<div className='col-xs-4'>
 							<img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogov2.png' height="34" width="90"/>
 							<a href='http://expressjs.com/' target="_blank"><div>Express.js</div></a>
-						</div>						
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/python.png' />
-							<a href='https://www.python.org/' target="_blank"><div>Python</div></a>
-						</div>
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
-							<a href='https://www.mysql.com/' target="_blank"><div>MySQL</div></a>
-						</div>												
-
+						</div>					
+						
 					</div>	
 
 					<div className='col-xs-12 margin-above'> 	
@@ -159,15 +144,11 @@ class About extends Component{
 							<a href='https://github.com' target="_blank"><div>GitHub</div></a>
 							
 						</div>
+						
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
+							<a href='https://www.mysql.com/' target="_blank"><div>MySQL</div></a>
+						</div>												
 
-						<div className='col-xs-4'>
-							<img className='skill-image-only-hover' src='../../Images/Icons/sourceTree.png'/>
-							<a href='https://www.sourcetreeapp.com/' target="_blank"><div>Source Tree</div></a>
-						</div>
-
-						
-						
-						
 						<div>&nbsp;</div>
 					</div>	
 
