@@ -99,13 +99,13 @@ class Project extends Component{
 					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
 
 						<div className='section-heading'>
-							<h2><a target="_blank" href="http://www.hrimagination.life/">hrimagination.life</a></h2>
+							<h2><a target="_blank" href="http://www.hrimagination.com/">hrimagination.com</a></h2>
 
 							<p>I enjoy making music in my free time and built a site for the music group my college roommate and I put together. </p>
 							<p> JavaScript - React.js, Styled Components  </p>
 
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='http://www.hrimagination.life/'><button className='btn btn-primary'> Website </button></a>
+								<a className='margin-right' target="_blank" href='http://www.hrimagination.com/'><button className='btn btn-primary'> Website </button></a>
 								<a target="_blank" href='https://github.com/rishikarri/hr-imagination-website-'><button className='btn btn-primary'>Repository</button></a>
 							</div>
 						</div>						

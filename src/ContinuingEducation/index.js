@@ -27,6 +27,8 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Tech Books Read</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
+						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Scopes & Closures - Kyle Simpson</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Up & Going - Kyle Simpson</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>The Pragmatic Programmer - Andy Hunt and Dave Thomas</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>The C Programming Language - Brian Kernighan and Dennis Ritchie</li> 						
 		                <li style={{ fontSize: 14, color: 'black'}}>A Smarter Way to Learn JavaScript - Mark Myers</li>

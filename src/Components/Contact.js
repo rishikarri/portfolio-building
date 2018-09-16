@@ -51,6 +51,17 @@ class Contact extends Component{
 								</li>
 							</ul>						
 						</div>						
+						
+						<div className='col-xs-12 col-md-12'>	
+							<ul className='no-bullet responsive-margin-above'>
+								<li>
+									<a target="_blank" href='https://stackoverflow.com/users/7600089/rishikarri'> <i className="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									Stack Overflow
+								</li>
+							</ul>						
+						</div>									
 
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
@@ -75,7 +86,7 @@ class Contact extends Component{
 							</ul>						
 						</div>																		
 
-					
+						
 
 					</div>
 					
