@@ -90,8 +90,13 @@ class Interests extends Component{
 										</tr>
 									</thead>
 
-									<tbody>										
-										{generateReadingEntry('The Alice Network', 'Kate Quinn', 'https://www.goodreads.com/book/show/32051912-the-alice-network', 'Currently Reading')}
+									<tbody>
+										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', 'Currently Reading')}										
+										{generateReadingEntry("Safe at Home", 'Bob Muzikowski, Gregg Lewis', 'https://www.goodreads.com/book/show/705004.Safe_at_Home', 'Currently Reading')}										
+										{generateReadingEntry("The Subtle Art of Not Giving a F*ck", 'Mark Manson', 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck', '9/5/2018')}										
+										{generateReadingEntry("The Nightingale", ' Kristin Hannah', 'https://www.goodreads.com/book/show/24938381-the-nightingale', '9/1/2018')}										
+										{generateReadingEntry("You Don't Know JS: Up & Going", 'Kyle Simpson', 'https://www.goodreads.com/book/show/25136217-you-don-t-know-js', '8/20/2018')}										
+										{generateReadingEntry('The Alice Network', 'Kate Quinn', 'https://www.goodreads.com/book/show/32051912-the-alice-network', '8/11/2018')}
 										{generateReadingEntry('The Pragmatic Programmer', 'Andy Hunt, Dave Thomas', 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer', '7/31/2018')}
 										{generateReadingEntry('Manhattan Beach', 'Jennifer Egan', 'https://www.goodreads.com/book/show/34467031-manhattan-beach', '7/02/2018')}
 										{generateReadingEntry('A New Earth', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/76334.A_New_Earth', '6/18/2018')}
