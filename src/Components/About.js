@@ -44,7 +44,7 @@ class About extends Component{
 					<div>
 						{/*<div><ContinuingEducation /></div>*/}
 						<ContinuingEducation />
-						<div>Curriculum</div>
+						{/* <div>Curriculum</div> */}
 						<div> </div>
 					</div>
 
