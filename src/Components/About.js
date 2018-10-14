@@ -6,6 +6,7 @@ import ContinuingEducation from '../ContinuingEducation/';
 // add continuing education 
 //can put in udemy courses and Harvard CS 50 once you complete it 
 
+// Update Work Experience to have ThingTech and CNN on it in place of skills 
 //skills section - add JIRA, Immutable, Mocha / Chai, google maps api, material ui, C
 class About extends Component{
 
@@ -43,6 +44,7 @@ class About extends Component{
 					<div>
 						{/*<div><ContinuingEducation /></div>*/}
 						<ContinuingEducation />
+						<div>Curriculum</div>
 						<div> </div>
 					</div>
 
