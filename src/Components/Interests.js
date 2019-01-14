@@ -91,8 +91,15 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>
-										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', 'Currently Reading')}										
-										{generateReadingEntry("Safe at Home", 'Bob Muzikowski, Gregg Lewis', 'https://www.goodreads.com/book/show/705004.Safe_at_Home', 'Currently Reading')}										
+										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', 'Currently Reading')}		
+										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', 'Currently Reading')}	
+										{generateReadingEntry("You Don't Know JS: Async & Performance", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221110-you-don-t-know-js', '1/5/2019')}										
+										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', '12/27/2019')}										
+										{generateReadingEntry("You Don't Know JS: Types & Grammar", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221109-you-don-t-know-js', '12/19/2018')}										
+										{generateReadingEntry("The Man in the High Castle", 'Philip K. Dick', 'https://www.goodreads.com/book/show/216363.The_Man_in_the_High_Castle', '11/28/2018')}										
+										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', '10/29/2018')}										
+										{generateReadingEntry("You Don't Know JS: Scope and Closures", 'Kyle Simpson', 'https://www.goodreads.com/book/show/20901022-you-don-t-know-js', '10/5/2018')}										
+										{generateReadingEntry("Safe at Home", 'Bob Muzikowski, Gregg Lewis', 'https://www.goodreads.com/book/show/705004.Safe_at_Home', '9/19/2018')}										
 										{generateReadingEntry("The Subtle Art of Not Giving a F*ck", 'Mark Manson', 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck', '9/5/2018')}										
 										{generateReadingEntry("The Nightingale", ' Kristin Hannah', 'https://www.goodreads.com/book/show/24938381-the-nightingale', '9/1/2018')}										
 										{generateReadingEntry("You Don't Know JS: Up & Going", 'Kyle Simpson', 'https://www.goodreads.com/book/show/25136217-you-don-t-know-js', '8/20/2018')}										
