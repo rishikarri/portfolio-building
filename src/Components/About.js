@@ -44,8 +44,6 @@ class About extends Component{
 					<div>
 						{/*<div><ContinuingEducation /></div>*/}
 						<ContinuingEducation />
-						{/* <div>Curriculum</div> */}
-						<div> </div>
 					</div>
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
