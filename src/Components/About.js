@@ -113,6 +113,7 @@ class About extends Component {
                 src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/CNN.png"
               />
             </div>
+			<p className="time-worked"> Software Developer</p>
             <p className="time-worked"> 04/2018 - Present</p>
             <div>
               <div className="col-xs-12" style={{ display: "flex" }}>
@@ -149,7 +150,8 @@ class About extends Component {
                 src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1502287437/cfrkoc1jfpaukcoaie3q.png"
               />
             </div>
-            <p className="time-worked-thingtech"> 05/2017 - 02/2018</p>
+			<p className="time-worked-thingtech"> Software Developer</p>
+            <p className="time-worked"> 05/2017 - 02/2018</p>
             <div>
               <div className="col-xs-12" style={{ display: "flex" }}>
                 <span style={{ color: "#337ab7" }}>Technology Used</span>
