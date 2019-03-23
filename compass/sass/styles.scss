@@ -82,13 +82,16 @@ $text: #4F4F4F;
 
   }
 }
-.test {
-  backround: green;
-  height: 90px;
+.time-worked {
+  font-weight: bold;
 }
-.workLogo {
-  height: 20px;
-  background: green;
+
+.work-logo-thingtech {
+  margin-right: -10px;
+}
+.time-worked-thingtech {
+  margin-top: -20px;
+  font-weight: bold;
 }
 .top-nav-bar-div{
   display: none;
