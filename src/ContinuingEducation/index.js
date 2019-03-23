@@ -27,6 +27,10 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Tech Books Read</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
+						<li style={{ fontSize: 14, color: 'black'}}>ES6 & Beyond - Kyle Simpson</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Async & Performance - Kyle Simpson</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Types & Grammar - Kyle Simpson</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>YDKJS this & Object Prototypes - Kyle Simpson</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Scopes & Closures - Kyle Simpson</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>YDKJS Up & Going - Kyle Simpson</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>The Pragmatic Programmer - Andy Hunt and Dave Thomas</li> 						
@@ -38,7 +42,7 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-						<li style={{ fontSize: 14, color: 'black'}}>1 Books Read in 2019 (See Interests Section for Details)</li>
+						<li style={{ fontSize: 14, color: 'black'}}>4 Books Read in 2019 (See Interests Section for Details)</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>28 Books Read in 2018 (See Interests Section for Details)</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>30 Books Read in 2017 (See Interests Section for Details)</li>
 					</p>

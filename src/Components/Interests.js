@@ -89,8 +89,10 @@ class Interests extends Component{
 											<td className='title-or-date'>Completed:</td>
 										</tr>
 									</thead>
-
+									
 									<tbody>
+										{generateReadingEntry("Functional-Light JavaScript", 'Kyle Simpson', 'https://www.goodreads.com/book/show/37482278-functional-light-javascript', 'Currently Reading')}										
+										{generateReadingEntry("Writing Better Lyrics", 'Pat Pattison', 'https://www.goodreads.com/book/show/695626.Writing_Better_Lyrics?from_search=true', 'Currently Reading')}		
 										{generateReadingEntry("Atomic Habits🎧", 'James Clear', 'https://www.goodreads.com/book/show/40121378-atomic-habits', '3/9/2019')}		
 										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', '2/28/2019')}		
 										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', '2/23/2019')}	
