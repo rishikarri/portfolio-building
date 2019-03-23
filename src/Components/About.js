@@ -63,117 +63,20 @@ class About extends Component{
 				<div className='col-xs-12 col-lg-6 margin-above center-text'>
 					<hr className='heading-spacer-about-me'/>				
 
-					<div className='about-me-header'>Skills, Tools, Qualifications </div>	
+					<div className='about-me-header'>Work Experience </div>	
 					
 					<hr className='heading-spacer-about-me'/>								
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-xs-4'>
-
-							<img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" />
-							<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><div>HTML5</div></a>
-						</div>
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/css3.png' />
-							<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><div>CSS</div></a>
-
-						</div>
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/Bootstrap.png'/>
-							<a href="http://getbootstrap.com/" target="_blank"><div>Bootstrap</div></a>
-
-						</div>
-
-						
-					</div>
-
-
-					<div className='col-xs-12 margin-above'> 
-
-						<div className='col-xs-4'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' />
-							<a href="https://www.javascript.com/" target="_blank"><div>JavaScript</div></a>
-						</div>
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/jquery.png' />
-							<a href="https://jquery.com/" target="_blank"><div>jQuery</div></a>
-						</div>	
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/React.png' />
-							<a href='https://facebook.github.io/react/' target="_blank"><div>React.js</div></a>
-
-						</div>					
-
-					</div>	
-
-
-					<div className='col-xs-12 margin-above'> 
-
-						
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/Redux.png' />
-							<a href='https://github.com/reactjs/redux' target="_blank"><div>Redux.js</div></a>
-						</div>							
-
-
-						<div className='col-xs-4'>
-							<img className='skill-image-only-hover' src='../../Images/Icons/nodejs.png' />
-							<a href='https://nodejs.org/en/' target="_blank"><div>Node.js</div></a>
-						</div>
-
-						<div className='col-xs-4'>
-							<img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogov2.png' height="34" width="90"/>
-							<a href='http://expressjs.com/' target="_blank"><div>Express.js</div></a>
-						</div>					
-						
-					</div>	
-
-					<div className='col-xs-12 margin-above'> 	
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/git.png' />
-							<a href='https://git-scm.com//' target="_blank"><div>Git</div></a>
-						</div>
-
-						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/github.png' />
-							<a href='https://github.com' target="_blank"><div>GitHub</div></a>
-							
-						</div>
-						
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
-							<a href='https://www.mysql.com/' target="_blank"><div>MySQL</div></a>
-						</div>												
-
-						<div>&nbsp;</div>
-					</div>	
-
-					<div className='col-xs-12 margin-above'> 
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
-							<a href="https://en.wikipedia.org/wiki/Microsoft_Excel" target="_blank"><div>Excel / Financial Modeling</div></a>
-						</div>							
-
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
-							<a href="https://en.wikipedia.org/wiki/Microsoft_PowerPoint" target="_blank"><div>PowerPoint</div></a>
-						</div>
-
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/capitalIQLogo.png' height="43" width="40"/>
-							<a href="http://marketintelligence.spglobal.com/" target="_blank"><div>Capital IQ</div></a>
-						</div>																																																						
+																																					
 						
 						<div>&nbsp;</div>
 					</div>	
 					
 						
-						
-					{/*template div - <div className='col-md-2'><img className='skill-image' src='../../public/Images/Icons/React.png' /></div>*/}
+					<div className="test"></div>
+					<div className='.workLogo'><img className='work-logo' src='https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/CNN.png' /></div>
 					
 					
 					
