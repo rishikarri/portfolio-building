@@ -91,10 +91,11 @@ class Interests extends Component{
 									</thead>
 
 									<tbody>
-										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', 'Currently Reading')}		
-										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', 'Currently Reading')}	
+										{generateReadingEntry("Atomic Habits🎧", 'James Clear', 'https://www.goodreads.com/book/show/40121378-atomic-habits', '3/9/2019')}		
+										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', '2/28/2019')}		
+										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', '2/23/2019')}	
 										{generateReadingEntry("You Don't Know JS: Async & Performance", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221110-you-don-t-know-js', '1/5/2019')}										
-										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', '12/27/2019')}										
+										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', '12/27/2018')}										
 										{generateReadingEntry("You Don't Know JS: Types & Grammar", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221109-you-don-t-know-js', '12/19/2018')}										
 										{generateReadingEntry("The Man in the High Castle", 'Philip K. Dick', 'https://www.goodreads.com/book/show/216363.The_Man_in_the_High_Castle', '11/28/2018')}										
 										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', '10/29/2018')}										
