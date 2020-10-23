@@ -66,10 +66,10 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<a target="_blank" href='../../Files/Rishi_Karri_Resume_9.16.2018.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='https://itunes.apple.com/us/artist/hr-imagination/1307315333'><i className="fa fa fa-music fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
-									Resume
+									Music
 								</li>
 							</ul>						
 						</div>						
@@ -92,7 +92,7 @@ class Contact extends Component{
 					
 				</div>
 
-				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2018. </div>
+				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2020. </div>
 
 			</div>
 		)
