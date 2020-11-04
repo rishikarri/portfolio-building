@@ -84,222 +84,223 @@ class Interests extends Component{
 								<table className='margin-above middle-of-div'>
 									<thead>
 										<tr className='taller-table-rows'>
-											<td className='title-or-date'>Book Title:</td>										
-											<td className='title-or-date'>Author:</td>
-											<td className='title-or-date'>Completed:</td>
+											<td className='title-or-date'>Book Title</td>										
+											<td className='title-or-date'>Author</td>
+											<td className='title-or-date'>Year Read / Listened to</td>
 										</tr>
 									</thead>
 									
 									<tbody>
-										{generateReadingEntry("Functional-Light JavaScript", 'Kyle Simpson', 'https://www.goodreads.com/book/show/37482278-functional-light-javascript', '4/10/2019')}										
-										{generateReadingEntry("Writing Better Lyrics", 'Pat Pattison', 'https://www.goodreads.com/book/show/695626.Writing_Better_Lyrics?from_search=true', '3/20/2019')}		
-										{generateReadingEntry("Atomic Habits🎧", 'James Clear', 'https://www.goodreads.com/book/show/40121378-atomic-habits', '3/9/2019')}		
-										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', '2/28/2019')}		
-										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', '2/23/2019')}	
-										{generateReadingEntry("You Don't Know JS: Async & Performance", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221110-you-don-t-know-js', '1/5/2019')}										
-										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', '12/27/2018')}										
-										{generateReadingEntry("You Don't Know JS: Types & Grammar", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221109-you-don-t-know-js', '12/19/2018')}										
-										{generateReadingEntry("The Man in the High Castle", 'Philip K. Dick', 'https://www.goodreads.com/book/show/216363.The_Man_in_the_High_Castle', '11/28/2018')}										
-										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', '10/29/2018')}										
-										{generateReadingEntry("You Don't Know JS: Scope and Closures", 'Kyle Simpson', 'https://www.goodreads.com/book/show/20901022-you-don-t-know-js', '10/5/2018')}										
-										{generateReadingEntry("Safe at Home", 'Bob Muzikowski, Gregg Lewis', 'https://www.goodreads.com/book/show/705004.Safe_at_Home', '9/19/2018')}										
-										{generateReadingEntry("The Subtle Art of Not Giving a F*ck", 'Mark Manson', 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck', '9/5/2018')}										
-										{generateReadingEntry("The Nightingale", ' Kristin Hannah', 'https://www.goodreads.com/book/show/24938381-the-nightingale', '9/1/2018')}										
-										{generateReadingEntry("You Don't Know JS: Up & Going", 'Kyle Simpson', 'https://www.goodreads.com/book/show/25136217-you-don-t-know-js', '8/20/2018')}										
-										{generateReadingEntry('The Alice Network', 'Kate Quinn', 'https://www.goodreads.com/book/show/32051912-the-alice-network', '8/11/2018')}
-										{generateReadingEntry('The Pragmatic Programmer', 'Andy Hunt, Dave Thomas', 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer', '7/31/2018')}
-										{generateReadingEntry('Manhattan Beach', 'Jennifer Egan', 'https://www.goodreads.com/book/show/34467031-manhattan-beach', '7/02/2018')}
-										{generateReadingEntry('A New Earth', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/76334.A_New_Earth', '6/18/2018')}
-										{generateReadingEntry('The C Programming Language', 'Brian Kernighan, Dennis Ritchie', 'https://www.goodreads.com/book/show/515601.The_C_Programming_Language?ac=1&from_search=true', '6/10/2018')}
-										{generateReadingEntry('The Hate U Give', 'Angie Thomas', 'https://www.goodreads.com/book/show/32075671-the-hate-u-give', '5/18/2018')}
-										{generateReadingEntry('Purple Hibiscus', 'Chimamanda Ngozi Adichie', 'https://www.goodreads.com/book/show/126381.Purple_Hibiscus', '5/5/2018')}
-										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', '4/25/2018')}
-										{generateReadingEntry("The Hitchhiker's Guide to the Galaxy", 'Douglas Adams ', 'https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy', '4/05/2018')}
-										{generateReadingEntry('Astrophysics for People in a Hurry', 'Neil deGrasse Tyson ', 'https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry?ac=1&from_search=true', '3/25/2018')}
-										{generateReadingEntry('Fight Club', 'Chuck Palahniuk', 'https://www.goodreads.com/book/show/5759.Fight_Club', '3/15/2018')}																																																																										
-										{generateReadingEntry('Practicing the Power of Now', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/6709.Practicing_the_Power_of_Now', '3/5/2018')}																				
-										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', '2/28/2018')}																				
+										{generateReadingEntry("Functional-Light JavaScript", 'Kyle Simpson', 'https://www.goodreads.com/book/show/37482278-functional-light-javascript', 2019)}										
+										{generateReadingEntry("Writing Better Lyrics", 'Pat Pattison', 'https://www.goodreads.com/book/show/695626.Writing_Better_Lyrics?from_search=true', 2019)}		
+										{generateReadingEntry("Atomic Habits🎧", 'James Clear', 'https://www.goodreads.com/book/show/40121378-atomic-habits', 2019)}		
+										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', 2019)}		
+										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', 2019)}	
+										{generateReadingEntry("You Don't Know JS: Async & Performance", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221110-you-don-t-know-js', 2019)}										
+										<tr className="year-divider">&nbsp;</tr>
+										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', 2018)}										
+										{generateReadingEntry("You Don't Know JS: Types & Grammar", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221109-you-don-t-know-js', 2018)}										
+										{generateReadingEntry("The Man in the High Castle", 'Philip K. Dick', 'https://www.goodreads.com/book/show/216363.The_Man_in_the_High_Castle', 2018)}										
+										{generateReadingEntry("You Don't Know JS: this & Object Prototypes", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221108-you-don-t-know-js', 2018)}										
+										{generateReadingEntry("You Don't Know JS: Scope and Closures", 'Kyle Simpson', 'https://www.goodreads.com/book/show/20901022-you-don-t-know-js', 2018)}										
+										{generateReadingEntry("Safe at Home", 'Bob Muzikowski, Gregg Lewis', 'https://www.goodreads.com/book/show/705004.Safe_at_Home', 2018)}										
+										{generateReadingEntry("The Subtle Art of Not Giving a F*ck", 'Mark Manson', 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck', 2018)}										
+										{generateReadingEntry("The Nightingale", ' Kristin Hannah', 'https://www.goodreads.com/book/show/24938381-the-nightingale', 2018)}										
+										{generateReadingEntry("You Don't Know JS: Up & Going", 'Kyle Simpson', 'https://www.goodreads.com/book/show/25136217-you-don-t-know-js', 2018)}										
+										{generateReadingEntry('The Alice Network', 'Kate Quinn', 'https://www.goodreads.com/book/show/32051912-the-alice-network', 2018)}
+										{generateReadingEntry('The Pragmatic Programmer', 'Andy Hunt, Dave Thomas', 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer', 2018)}
+										{generateReadingEntry('Manhattan Beach', 'Jennifer Egan', 'https://www.goodreads.com/book/show/34467031-manhattan-beach', 2018)}
+										{generateReadingEntry('A New Earth', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/76334.A_New_Earth', 2018)}
+										{generateReadingEntry('The C Programming Language', 'Brian Kernighan, Dennis Ritchie', 'https://www.goodreads.com/book/show/515601.The_C_Programming_Language?ac=1&from_search=true', 2018)}
+										{generateReadingEntry('The Hate U Give', 'Angie Thomas', 'https://www.goodreads.com/book/show/32075671-the-hate-u-give', 2018)}
+										{generateReadingEntry('Purple Hibiscus', 'Chimamanda Ngozi Adichie', 'https://www.goodreads.com/book/show/126381.Purple_Hibiscus', 2018)}
+										{generateReadingEntry('Be Yourself, Everyone Else Is Already Taken', 'Mike Robbins', 'https://www.goodreads.com/book/show/6380353-be-yourself-everyone-else-is-already-taken', 2018)}
+										{generateReadingEntry("The Hitchhiker's Guide to the Galaxy", 'Douglas Adams ', 'https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy', 2018)}
+										{generateReadingEntry('Astrophysics for People in a Hurry', 'Neil deGrasse Tyson ', 'https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry?ac=1&from_search=true', 2018)}
+										{generateReadingEntry('Fight Club', 'Chuck Palahniuk', 'https://www.goodreads.com/book/show/5759.Fight_Club', 2018)}																																																																										
+										{generateReadingEntry('Practicing the Power of Now', 'Eckhart Tolle', 'https://www.goodreads.com/book/show/6709.Practicing_the_Power_of_Now', 2018)}																				
+										{generateReadingEntry('A Clockwork Orange', 'Anthony Burgess', 'https://www.goodreads.com/book/show/227463.A_Clockwork_Orange', 2018)}																				
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/890.Of_Mice_and_Men' target="_blank">Of Mice and Men</a></td>
 											<td className='data-entry'>John Steinbeck</td>										
-											<td className='data-entry'>2/18/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/18693763-everything-i-never-told-you' target="_blank">Everything I Never Told You</a></td>
 											<td className='data-entry'>Celeste Ng</td>										
-											<td className='data-entry'>2/13/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>				
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/11337.The_Bluest_Eye' target="_blank">The Bluest Eye</a></td>
 											<td className='data-entry'>Toni Morrison</td>										
-											<td className='data-entry'>2/7/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists' target="_blank">We Should All Be Feminists</a></td>
 											<td className='data-entry'>Chimamanda Ngozi Adichie</td>										
-											<td className='data-entry'>2/4/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/6480781-open' target="_blank">Open</a></td>
 											<td className='data-entry'>Andre Agassi, J.R. Moehringer</td>										
-											<td className='data-entry'>1/31/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea' target="_blank">The Old Man and the Sea</a></td>
 											<td className='data-entry'>Ernest Hemingway</td>										
-											<td className='data-entry'>1/14/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/13259960-the-smartest-kids-in-the-world' target="_blank">The Smartest Kids in the World</a></td>
 											<td className='data-entry'>Amanda Ripley</td>										
-											<td className='data-entry'>1/9/2018</td>										
+											<td className='data-entry'>2018</td>										
 										</tr>										
-
+										<tr className="year-divider">&nbsp;</tr>
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/35259724-behold-the-dreamers' target="_blank">Behold the Dreamers</a></td>
 											<td className='data-entry'>Imbolo Mbue</td>										
-											<td className='data-entry'>12/30/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/27220736-shoe-dog' target="_blank">Shoe Dog</a></td>
 											<td className='data-entry'>Phil Knight</td>										
-											<td className='data-entry'>12/26/17</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>	
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/6708.The_Power_of_Now' target="_blank">The Power of Now</a></td>
 											<td className='data-entry'>Eckhart Tolle</td>										
-											<td className='data-entry'>12/14/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/7445.The_Glass_Castle' target="_blank">The Glass Castle</a></td>
 											<td className='data-entry'>Jeannette Walls</td>										
-											<td className='data-entry'>12/3/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/15815364-how-to-get-filthy-rich-in-rising-asia' target="_blank">How to Get Filthy Rich in Rising Asia</a></td>
 											<td className='data-entry'>Mohsin Hamid</td>										
-											<td className='data-entry'>11/13/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/23453112-modern-romance' target="_blank">Modern Romance</a></td>
 											<td className='data-entry'>Aziz Ansari, Eric Klinenberg</td>										
-											<td className='data-entry'>11/8/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/865.The_Alchemist' target="_blank">The Alchemist</a></td>
 											<td className='data-entry'>Paulo Coelho</td>										
-											<td className='data-entry'>10/19/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/34273236-little-fires-everywhere' target="_blank">Little Fires Everywhere</a></td>
 											<td className='data-entry'>Celeste Ng</td>										
-											<td className='data-entry'>10/9/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/29496453-the-book-of-joy' target="_blank">The Book of Joy</a></td>
 											<td className='data-entry'>Dalai Lama XIV, Desmond Tutu, Douglas Carlton Abrams</td>										
-											<td className='data-entry'>9/30/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/440777.Moth_Smoke' target="_blank">Moth Smoke</a></td>
 											<td className='data-entry'>Mohsin Hamid</td>										
-											<td className='data-entry'>8/31/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/88815.The_Reluctant_Fundamentalist' target="_blank">The Reluctant Fundamentalist</a></td>
 											<td className='data-entry'>Mohsin Hamid</td>										
-											<td className='data-entry'>8/19/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/28389305-the-other-einstein' target="_blank">The Other Einstein</a></td>
 											<td className='data-entry'>Marie Benedict</td>										
-											<td className='data-entry'>8/12/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/27161189-united-as-one' target="_blank">United as One</a></td>
 											<td className='data-entry'>Pittacus Lore</td>										
-											<td className='data-entry'>7/28/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/24488476-the-fate-of-ten' target="_blank">The Fate of Ten</a></td>
 											<td className='data-entry'>Pittacus Lore</td>										
-											<td className='data-entry'>7/17/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/43015.A_Long_Way_Gone' target="_blank">A Long Way Gone</a></td>
 											<td className='data-entry'>Ishmael Beah</td>										
-											<td className='data-entry'>6/26/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows' target="_blank">Harry Potter and the Deathly Hallows</a></td>
 											<td className='data-entry'>J.K. Rowling</td>										
-											<td className='data-entry'>6/18/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/3636.The_Giver' target="_blank">The Giver</a></td>
 											<td className='data-entry'>Lois Lowry</td>										
-											<td className='data-entry'>5/20/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/30117284-carve-the-mark?from_search=true' target="_blank">Carve the Mark</a></td>
 											<td className='data-entry'>Veronica Roth</td>										
-											<td className='data-entry'>5/11/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/12030438-the-start-up-of-you' target="_blank">The Start-Up of You</a></td>
 											<td className='data-entry'>Reid Hoffman & Ben Casnocha</td>										
-											<td className='data-entry'>5/2/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince?ac=1&from_search=true' target="_blank">Harry Potter and the Half-Blood Prince</a></td>
 											<td className='data-entry'>J.K. Rowling</td>										
-											<td className='data-entry'>4/27/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/42547.The_Autobiography_of_Martin_Luther_King_Jr_' target="_blank">The Autobiography of Martin Luther King Jr.</a></td>
 											<td className='data-entry'>Martin Luther King Jr.</td>										
-											<td className='data-entry'>4/21/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/9415942-now-is-the-time-for-running' target="_blank">Now is the Time for Running</a></td>
 											<td className='data-entry'>Michael Williams</td>										
-											<td className='data-entry'>4/6/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix' target="_blank">Harry Potter and the Order of the Phoenix</a></td>
 											<td className='data-entry'>J.K. Rowling</td>										
-											<td className='data-entry'>3/31/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 
@@ -307,77 +308,77 @@ class Interests extends Component{
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/11387515-wonder' target="_blank">Wonder</a></td>
 											<td className='data-entry'>R.J. Palacio</td>										
-											<td className='data-entry'>3/18/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/4214.Life_of_Pi' target="_blank">Life of Pi</a></td>
 											<td className='data-entry'>Yann Martel</td>										
-											<td className='data-entry'>3/13/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/20839546-diamond-boy?from_search=true' target="_blank">Diamond Boy</a></td>
 											<td className='data-entry'>Michael Williams</td>										
-											<td className='data-entry'>2/26/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 										
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/22557272-the-girl-on-the-train?ac=1&from_search=true' target="_blank">The Girl on the Train</a></td>											
 											<td className='data-entry'>Paula Hawkins</td>																				
-											<td className='data-entry'>2/19/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>										
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/128029.A_Thousand_Splendid_Suns?ac=1&from_search=true' target="_blank">A Thousand Splendid Suns</a></td>											
 											<td className='data-entry'>Khaled Hosseini</td>																				
-											<td className='data-entry'>1/28/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>										
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/30655.8_Minute_Meditation?ac=1&from_search=true' target="_blank">8 Minute Meditation</a></td>																						
 											<td className='data-entry'>Victor Davich</td>																				
-											<td className='data-entry'>1/8/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>		
 
 										<tr className='taller-table-rows'>										
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/13489835-everburn' target="_blank">Everburn</a></td>
 											<td className='data-entry'>Robert Bunch</td>																																								
-											<td className='data-entry'>1/3/2017</td>										
+											<td className='data-entry'>2017</td>										
 										</tr>		
-
+										<tr className="year-divider">&nbsp;</tr>
 										<tr className='taller-table-rows'>
 										
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16115612-and-the-mountains-echoed?from_search=true' target="_blank">And the Mountains Echoed</a></td>											
 											<td className='data-entry'>Khaled Hosseini</td>																																								
-											<td className='data-entry'>11/20/2016</td>										
+											<td className='data-entry'>2016</td>										
 										</tr>	
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/8341335-learn-python-the-hard-way' target="_blank">Learn Python the Hard Way</a></td>																						
 											<td className='data-entry'>Zed Shaw</td>																																																											
-											<td className='data-entry'>11/19/2016</td>										
+											<td className='data-entry'>2016</td>										
 										</tr>
 	
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/19319366-a-smarter-way-to-learn-javascript?from_search=true' target="_blank">A Smarter Way to Learn JavaScript</a></td>																						
 											<td className='data-entry'>Mark Myers</td>																																																											
-											<td className='data-entry'>11/3/2016</td>										
+											<td className='data-entry'>2016</td>										
 										</tr>
 
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16256798-the-one-thing?from_search=true' target="_blank">The One Thing</a></td>																						
 											<td className='data-entry'>Gary W. Keller & Jay Papasan</td>																																																											
-											<td className='data-entry'>10/25/2016</td>										
+											<td className='data-entry'>2016</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/25137361-a-smarter-way-to-learn-html-css' target="_blank">A Smarter Way to Learn HTML & CSS</a></td>																						
 											<td className='data-entry'>Mark Myers</td>																																																											
-											<td className='data-entry'>10/13/2016</td>										
+											<td className='data-entry'>2016</td>										
 										</tr>
 
 									</tbody>

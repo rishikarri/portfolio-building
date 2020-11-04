@@ -14,6 +14,10 @@
   color: white;
 }
 
+.year-divider {
+  border-top: solid 1px grey; 
+}
+
 .App-intro {
   font-size: large;
 }
