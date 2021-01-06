@@ -91,12 +91,15 @@ class Interests extends Component{
 									</thead>
 									
 									<tbody>
+										{generateReadingEntry("The Wizard of Oz Vocabulary Builder", 'Mark Phillips', 'https://www.goodreads.com/book/show/236086.The_Wizard_of_Oz_Vocabulary_Builder', 2019)}
+										{generateReadingEntry("The Corrections", 'Jonathan Franzen', 'https://www.goodreads.com/book/show/3805.The_Corrections', 2019)}										
 										{generateReadingEntry("Functional-Light JavaScript", 'Kyle Simpson', 'https://www.goodreads.com/book/show/37482278-functional-light-javascript', 2019)}										
 										{generateReadingEntry("Writing Better Lyrics", 'Pat Pattison', 'https://www.goodreads.com/book/show/695626.Writing_Better_Lyrics?from_search=true', 2019)}		
 										{generateReadingEntry("Atomic Habits🎧", 'James Clear', 'https://www.goodreads.com/book/show/40121378-atomic-habits', 2019)}		
 										{generateReadingEntry("All the Light We Cannot See", 'Anthony Doerr', 'https://www.goodreads.com/book/show/18143977-all-the-light-we-cannot-see', 2019)}		
 										{generateReadingEntry("You Don't Know JS: ES6 & Beyond", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221111-you-don-t-know-js', 2019)}	
 										{generateReadingEntry("You Don't Know JS: Async & Performance", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221110-you-don-t-know-js', 2019)}										
+										<tr className="year-divider">&nbsp;</tr>
 										<tr className="year-divider">&nbsp;</tr>
 										{generateReadingEntry("The Great Gatsby", 'F. Scott Fitzgerald', 'https://www.goodreads.com/book/show/4671.The_Great_Gatsby', 2018)}										
 										{generateReadingEntry("You Don't Know JS: Types & Grammar", 'Kyle Simpson', 'https://www.goodreads.com/book/show/22221109-you-don-t-know-js', 2018)}										
@@ -162,6 +165,7 @@ class Interests extends Component{
 											<td className='data-entry'>Amanda Ripley</td>										
 											<td className='data-entry'>2018</td>										
 										</tr>										
+										<tr className="year-divider">&nbsp;</tr>
 										<tr className="year-divider">&nbsp;</tr>
 										<tr className='taller-table-rows'>					
 											<td className='data-entry'><a href='https://www.goodreads.com/book/show/35259724-behold-the-dreamers' target="_blank">Behold the Dreamers</a></td>
@@ -347,6 +351,7 @@ class Interests extends Component{
 											<td className='data-entry'>Robert Bunch</td>																																								
 											<td className='data-entry'>2017</td>										
 										</tr>		
+										<tr className="year-divider">&nbsp;</tr>
 										<tr className="year-divider">&nbsp;</tr>
 										<tr className='taller-table-rows'>
 										
