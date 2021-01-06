@@ -14,11 +14,11 @@ class About extends Component {
 			<div className="padding-none">
 				<div className="col-xs-12">
 					<div className="col-xs-12 col-sm-3 col-md-2 personal-photo-div col-lg-3">
-						<img className="personal-photo" src="../../Images/professional-picture-of-me.jpeg" />
+						<img className="personal-photo" src="../../Images/picture-of-me.PNG" />
 					</div>
 
 					<div className="col-xs-12 col-sm-9 col-md-10 col-lg-6 description-text">
-						My name is Rishi. I love to code and have a passion for finance.
+						My name is Rishi. I love to code and have a background in finance.
 					</div>
 
 					<div className="col-xs-12 col-sm-9 col-md-10 col-lg-6 description-text-smaller margin-above padding-right-zero">
@@ -67,7 +67,7 @@ class About extends Component {
 					{/* Text university of wisconsin description */}
 					<p>
 						{" "}
-						I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of the classroom, I spent time working as a
+						I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of pursuing for my degree, I spent time working as a
 						teaching assistant, working at a local bar, and playing tennis on the club team.{" "}
 					</p>
 				</div>
