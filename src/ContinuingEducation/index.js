@@ -43,9 +43,10 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-						<li style={{ fontSize: 14, color: 'black'}}>9 Books Read in 2019 (See Interests Section for Details)</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>29 Books Read in 2018 (See Interests Section for Details)</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>30 Books Read in 2017 (See Interests Section for Details)</li>
+						<li style={{ fontSize: 14, color: 'black'}}>13 Books read in 2020 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>14 Books read in 2019 </li>
+		                <li style={{ fontSize: 14, color: 'black'}}>29 Books read in 2018 </li>
+		                <li style={{ fontSize: 14, color: 'black'}}>30 Books read in 2017 </li>
 					</p>
 
 
