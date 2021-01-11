@@ -73,7 +73,7 @@ class Project extends Component{
 						<div className='section-heading  project-image-div'>
 							<h2>Village Savior</h2>
 							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0, you must retreat!</p>
-							<p> HTML & CSS, JavaScript (code is intentionally written without frameworks)</p>
+							<p> HTML & CSS, JavaScript</p>
 							{/*Link to youtube video */}
 							<div className='repo-demo-links'>
 								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
