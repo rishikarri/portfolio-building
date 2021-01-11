@@ -67,7 +67,7 @@ class About extends Component {
 					{/* Text university of wisconsin description */}
 					<p>
 						{" "}
-						I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of pursuing for my degree, I spent time working as a
+						I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of pursuing my degree, I spent time working as a
 						teaching assistant, working at a local bar, and playing tennis on the club team.{" "}
 					</p>
 				</div>
