@@ -101,10 +101,28 @@ class Interests extends Component {
 
 									<tbody>
 										{generateReadingEntry(
-											"The Millionaire Fastlane",
+											"The Name of the Wind",
+											"Patrick Rothfuss ",
+											"https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"Greenlights 🎧",
+											"Matthew McConaughey",
+											"https://www.goodreads.com/book/show/52838315-greenlights",
+											2021
+										)}
+										{generateReadingEntry(
+											"The Retirement Miracle",
+											"Patrick Kelly",
+											"https://www.goodreads.com/en/book/show/13615839-the-retirement-miracle",
+											2021
+										)}
+										{generateReadingEntry(
+											"The Millionaire Fastlane 🎧",
 											"MJ Demarco",
 											"https://www.goodreads.com/book/show/18872437-the-millionaire-fastlane",
-											"Currently Listening 🎧"
+											2021
 										)}
 										{generateReadingEntry(
 											"The Life You Can Save",
