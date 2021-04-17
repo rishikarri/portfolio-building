@@ -107,6 +107,12 @@ class Interests extends Component {
 											'Currently Reading'
 										)}
 										{generateReadingEntry(
+											"Dreams from My Father",
+											"Barack Obama",
+											"https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
+											2021
+										)}
+										{generateReadingEntry(
 											"Greenlights 🎧",
 											"Matthew McConaughey",
 											"https://www.goodreads.com/book/show/52838315-greenlights",
