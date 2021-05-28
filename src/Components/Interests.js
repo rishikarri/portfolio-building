@@ -101,10 +101,22 @@ class Interests extends Component {
 
 									<tbody>
 										{generateReadingEntry(
+											"Man's Search for Meaning",
+											"Viktor E. Frankl",
+											"https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"Secrets Self-Made Millionaires Teach Their Kids",
+											"Steve Siebold",
+											"https://www.goodreads.com/book/show/37808237-secrets-self-made-millionaires-teach-their-kids",
+											2021
+										)}
+										{generateReadingEntry(
 											"The Name of the Wind",
 											"Patrick Rothfuss ",
 											"https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"Dreams from My Father",
