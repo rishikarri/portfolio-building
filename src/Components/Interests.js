@@ -15,7 +15,7 @@ const generateReadingEntry = (title, author, urlToUse, dateCompleted) => (
 
 class Interests extends Component {
 	render() {
-		var quote = "An investment in knowledge pays the best interest. - Benjamin Franklin";
+		var quote = '"An investment in knowledge pays the best interest." - Benjamin Franklin';
 		var whatIamReading = "What I'm Reading";
 		return (
 			<div className="padding-none col-xs-12">
