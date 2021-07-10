@@ -100,11 +100,30 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
+
+										{generateReadingEntry(
+											"Why We Sleep",
+											"Matthew Walker",
+											"https://www.goodreads.com/book/show/34466963-why-we-sleep",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"177 Mental Toughness Secrets of the World Class",
+											"Steve Siebold",
+											"https://www.goodreads.com/book/show/2297678.177_Mental_Toughness_Secrets_of_the_World_Class",
+											2021
+										)}
+										{generateReadingEntry(
+											"#MAXOUT Your Life",
+											"Ed Mylett",
+											"https://www.goodreads.com/en/book/show/41557396-maxout-your-life",
+											2021
+										)}
 										{generateReadingEntry(
 											"Man's Search for Meaning",
 											"Viktor E. Frankl",
 											"https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"Secrets Self-Made Millionaires Teach Their Kids",
