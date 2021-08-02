@@ -100,7 +100,18 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
-
+										{generateReadingEntry(
+											"Super Quitter",
+											"Rachele Voigt",
+											"https://www.goodreads.com/book/show/58513543-super-quitter",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"The Wise Man's Fear",
+											"Patrick Rothfuss",
+											"https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear",
+											'Currently Reading'
+										)}
 										{generateReadingEntry(
 											"Why We Sleep",
 											"Matthew Walker",
