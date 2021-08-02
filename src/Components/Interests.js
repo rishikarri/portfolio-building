@@ -119,6 +119,14 @@ class Interests extends Component {
 											'Currently Reading'
 										)}
 										{generateReadingEntry(
+											"Make Today Count",
+											"John C. Maxwell",
+											"https://www.goodreads.com/book/show/2735207-make-today-count",
+											'Currently Reading'
+										)}
+
+
+										{generateReadingEntry(
 											"177 Mental Toughness Secrets of the World Class",
 											"Steve Siebold",
 											"https://www.goodreads.com/book/show/2297678.177_Mental_Toughness_Secrets_of_the_World_Class",
