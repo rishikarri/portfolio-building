@@ -124,7 +124,12 @@ class Interests extends Component {
 											"https://www.goodreads.com/book/show/2735207-make-today-count",
 											'Currently Reading'
 										)}
-
+										{generateReadingEntry(
+											"Waking Up",
+											"Sam Harris",
+											"https://www.goodreads.com/book/show/18774981-waking-up",
+											2021
+										)}
 
 										{generateReadingEntry(
 											"177 Mental Toughness Secrets of the World Class",
