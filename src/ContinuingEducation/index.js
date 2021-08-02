@@ -16,8 +16,29 @@ class ContinuingEducation extends Component{
 					<p className='col-xs-8 col-xs-offset-3' style={{marginLeft: 20, textAlign: 'left', }}> 
 		                <li style={{fontSize: 14, color: 'black'}}><a target="_blank" href="http://online-learning.harvard.edu/course/cs50-introduction-computer-science">CS50 - Introduction to Computer Science </a>- 0% Complete </li>
 					</p>*/}
+					<div className="col-xs-12" style={{color: '#337ab7', textDecoration: 'none', textAlign: 'left', fontWeight: 'bold'}}>Test Scores / Certifications</div>
+					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
+		                
+						<li style={{ fontSize: 14, color: 'black'}}><a target="_blank" href="https://www.ets.org/gre">Graduate Record Examination (GRE)</a>
+						<ul>
+							<li>Score: 329, 5.0</li>
+							<ul>
+								<li>Quantitative: 166 / 170</li>
+								<li>Verbal: 163 / 170</li>
+								<li>Analytical Writing: 5.0 / 6.0</li>
+							</ul>
+							<li>Test Date: April 2021.</li>
+						</ul> 
+						</li>
+		                
+						<li style={{ fontSize: 14, color: 'black'}}><a target="_blank" href="https://www.finra.org/registration-exams-ce/qualification-exams/series79">Series 79 – Investment Banking Representative Exam</a></li>
+						<ul>
+							<li>Score: PASS</li>
+							<li>Test Date: August 2015</li>
+						</ul>
+					</p>
 
-					<div className="col-xs-12" style={{display: 'flex'}}><a target="_blank" href="https://www.udemy.com/">Udemy Courses</a></div>
+					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><a target="_blank" href="https://www.udemy.com/">Udemy Courses</a></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
 		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider</li> 
@@ -25,7 +46,7 @@ class ContinuingEducation extends Component{
 
 					</p>
 
-					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Tech Books Read</span></div>
+					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Tech Books Read</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
 						<li style={{ fontSize: 14, color: 'black'}}>Functional Light JavaScript - Kyle Simpson</li> 						
 						<li style={{ fontSize: 14, color: 'black'}}>ES6 & Beyond - Kyle Simpson</li> 						
