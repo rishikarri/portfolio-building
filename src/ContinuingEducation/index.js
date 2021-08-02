@@ -27,7 +27,7 @@ class ContinuingEducation extends Component{
 								<li>Verbal: 163 / 170</li>
 								<li>Analytical Writing: 5.0 / 6.0</li>
 							</ul>
-							<li>Test Date: April 2021.</li>
+							<li>Test Date: April 2021</li>
 						</ul> 
 						</li>
 		                
