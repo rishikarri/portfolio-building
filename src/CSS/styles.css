@@ -227,7 +227,11 @@
 
 .about-me-company-photo {
   height: 80px;
-  width: 200px;
+  text-align: center;
+}
+
+.about-me-company-photo-upenn {
+  height: 100px;
   text-align: center;
 }
 

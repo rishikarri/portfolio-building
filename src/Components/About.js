@@ -36,10 +36,20 @@ class About extends Component {
 					<div className="about-me-header">Education</div>
 
 					<hr className="heading-spacer-about-me" />
-
 					<div>
-						{/*<div><ContinuingEducation /></div>*/}
-						<ContinuingEducation />
+						{" "}
+						<img className="about-me-company-photo-upenn margin-above" src="../../Images/university-of-pennsylvania-penn-vector-logo.png" />{" "}
+					</div>
+					{/* Text for dc description */}
+					<div>
+						<p>
+							{" "}
+							I am currently enrolled in a master's degree at University of Pennsylvania - starting January, 2022. The MCIT (Master of Computer and Information Technology) is a rigorous program that begins with a strong computer science foundation and goes on to graduate-level electives that are exactly the same as those taken by students in traditional computer science master’s programs. It is perfect for students who have not studied computer science in undergrad but have an interest in furthering their computer science education. Learn more{" "}
+							<a target="_blank" href="https://online.seas.upenn.edu/degrees/mcit-online/">
+								here
+							</a>
+							!
+						</p>
 					</div>
 
 					<div>
@@ -70,6 +80,13 @@ class About extends Component {
 						I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of pursuing my degree, I spent time working as a
 						teaching assistant, working at a local bar, and playing tennis on the club team.{" "}
 					</p>
+
+					<div>
+						{/*<div><ContinuingEducation /></div>*/}
+						<ContinuingEducation />
+					</div>
+
+					
 				</div>
 
 				{/* Skills, tools and qualifications starts here starts here */}
