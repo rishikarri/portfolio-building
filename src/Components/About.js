@@ -81,7 +81,7 @@ class About extends Component {
 						teaching assistant, working at a local bar, and playing tennis on the club team.{" "}
 					</p>
 
-					<div>
+					<div style={{marginTop: 45}}>
 						{/*<div><ContinuingEducation /></div>*/}
 						<ContinuingEducation />
 					</div>
