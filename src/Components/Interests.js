@@ -101,28 +101,46 @@ class Interests extends Component {
 
 									<tbody>
 										{generateReadingEntry(
+											"The Fifth Season",
+											"N.K. Jemisin",
+											"https://www.goodreads.com/book/show/19161852-the-fifth-season",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"Golden Son",
+											"Pierce Brown",
+											"https://www.goodreads.com/book/show/18966819-golden-son",
+											'Currently Reading'
+										)}
+										{generateReadingEntry(
+											"Red Rising",
+											"Pierce Brown",
+											"https://www.goodreads.com/book/show/15839976-red-rising",
+											2021
+										)}
+										{generateReadingEntry(
 											"Super Quitter",
 											"Rachele Voigt",
 											"https://www.goodreads.com/book/show/58513543-super-quitter",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"The Wise Man's Fear",
 											"Patrick Rothfuss",
 											"https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"Why We Sleep",
 											"Matthew Walker",
 											"https://www.goodreads.com/book/show/34466963-why-we-sleep",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"Make Today Count",
 											"John C. Maxwell",
 											"https://www.goodreads.com/book/show/2735207-make-today-count",
-											'Currently Reading'
+											2021
 										)}
 										{generateReadingEntry(
 											"Waking Up",
