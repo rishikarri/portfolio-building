@@ -44,7 +44,7 @@ class About extends Component {
 					<div>
 						<p>
 							{" "}
-							I am currently enrolled in a master's degree at University of Pennsylvania - starting January, 2022. The MCIT (Master of Computer and Information Technology) is a rigorous program that begins with a strong computer science foundation and goes on to graduate-level electives that are exactly the same as those taken by students in traditional computer science master’s programs. It is perfect for students who have not studied computer science in undergrad but have an interest in furthering their computer science education. Learn more{" "}
+							I am currently enrolled in a master's degree at University of Pennsylvania - starting January, 2022. I will be pursuing a MCIT (Master of Computer and Information Technology) degree. Learn more{" "}
 							<a target="_blank" href="https://online.seas.upenn.edu/degrees/mcit-online/">
 								here
 							</a>
