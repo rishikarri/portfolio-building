@@ -92,7 +92,7 @@ class Contact extends Component{
 					
 				</div>
 
-				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2020. </div>
+				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2021. </div>
 
 			</div>
 		)
