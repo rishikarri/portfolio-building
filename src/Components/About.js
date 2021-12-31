@@ -44,7 +44,7 @@ class About extends Component {
 					<div>
 						<p>
 							{" "}
-							I am currently enrolled in a master's degree at University of Pennsylvania - starting January, 2022. I will be pursuing a MCIT (Master of Computer and Information Technology) degree. Learn more{" "}
+							I am currently enrolled in a master's degree at University of Pennsylvania - starting August, 2022. I will be pursuing a MCIT (Master of Computer and Information Technology) degree. Learn more{" "}
 							<a target="_blank" href="https://online.seas.upenn.edu/degrees/mcit-online/">
 								here
 							</a>
