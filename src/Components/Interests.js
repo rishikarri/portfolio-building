@@ -112,6 +112,13 @@ class Interests extends Component {
 											2022
 										)}
 										{generateReadingEntry(
+											"Rich Dad, Poor Dad",
+											"Robert T. Kiyosaki",
+											"https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
+											2022
+										)}
+										
+										{generateReadingEntry(
 											"Secrets of the Millionaire Mind",
 											"T. Harv Eker",
 											"https://www.goodreads.com/book/show/785092.Secrets_of_the_Millionaire_Mind",
