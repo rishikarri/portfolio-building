@@ -38,10 +38,10 @@ class About extends Component {
 					<hr className="heading-spacer-about-me" />
 					<div>
 						{" "}
-						<img className="about-me-company-photo-upenn margin-above" src="../../Images/university-of-pennsylvania-penn-vector-logo.png" />{" "}
+						{/* <img className="about-me-company-photo-upenn margin-above" src="../../Images/university-of-pennsylvania-penn-vector-logo.png" />{" "} */}
 					</div>
-					{/* Text for dc description */}
-					<div>
+					{/* Text for upenn description */}
+					{/* <div>
 						<p>
 							{" "}
 							I am currently enrolled in a master's degree at University of Pennsylvania - starting August, 2022. I will be pursuing a MCIT (Master of Computer and Information Technology) degree. Learn more{" "}
@@ -50,7 +50,7 @@ class About extends Component {
 							</a>
 							!
 						</p>
-					</div>
+					</div> */}
 
 					<div>
 						{" "}

@@ -66,7 +66,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<a target="_blank" href='https://itunes.apple.com/us/artist/hr-imagination/1307315333'><i className="fa fa fa-music fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm'><i className="fa fa fa-music fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Music

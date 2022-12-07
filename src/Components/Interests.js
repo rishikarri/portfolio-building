@@ -100,6 +100,31 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
+									{generateReadingEntry(
+											"Dune",
+											"Frank Herbert",
+											"https://www.goodreads.com/book/show/44767458-dune",
+											"Currently Reading")}
+									{generateReadingEntry(
+											"Becoming Supernatural",
+											"Joe Dispenza",
+											"https://www.goodreads.com/book/show/35852435-becoming-supernatural",
+											"Currently Reading")}
+									{generateReadingEntry(
+											"The Inner Game of Tennis",
+											"Timothy Gallwey",
+											"https://www.goodreads.com/book/show/905.The_Inner_Game_of_Tennis",
+											2022)}
+									{generateReadingEntry(
+											"Bigger Leaner Stronger",
+											"Michael Matthews",
+											"https://www.goodreads.com/book/show/25049103-bigger-leaner-stronger",
+											2022)}
+										{generateReadingEntry(
+											"The Little Black Book of Workout Motivation",
+											"Michael Matthews",
+											"https://www.goodreads.com/en/book/show/40801835-the-little-black-book-of-workout-motivation",
+											2022)}
 										{generateReadingEntry(
 											"Ishmael",
 											"Daniel Quinn",
