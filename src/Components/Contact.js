@@ -52,13 +52,23 @@ class Contact extends Component{
 							</ul>						
 						</div>						
 						
-						<div className='col-xs-12 col-md-12'>	
+						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
 									<a target="_blank" href='https://stackoverflow.com/users/7600089/rishikarri'> <i className="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Stack Overflow
+								</li>
+							</ul>						
+						</div>									
+						<div className='col-xs-12 col-md-6'>	
+							<ul className='no-bullet responsive-margin-above'>
+								<li>
+									<a target="_blank" href='https://medium.com/@rishikarri'> <i className="fa fa-pencil-square-o fa-5x" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									Blog
 								</li>
 							</ul>						
 						</div>									
@@ -92,7 +102,7 @@ class Contact extends Component{
 					
 				</div>
 
-				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2022. </div>
+				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2023. </div>
 
 			</div>
 		)
