@@ -70,7 +70,7 @@ class Interests extends Component {
 
 										<tr className="tallest-table-rows">
 											<td className="data-entry">
-												<img className="interests-image" src="../../Images/Interests/teaching-clipart.png" /> <div>Teaching</div>
+												<img className="interests-image" src="../../Images/Interests/tree_clipart.jpeg" /> <div>Environmental Aid</div>
 											</td>
 											<td className="data-entry">&nbsp;</td>
 											<td className="data-entry">
@@ -100,19 +100,44 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
-									
+									{generateReadingEntry( 
+											"The Almanack of Naval Ravikant",
+											"Eric Jorgenson",
+											"https://www.goodreads.com/en/book/show/54898389",
+											2023)}
+										{generateReadingEntry( 
+											"The Psychology of Money",
+											"Morgan Housel",
+											"https://www.goodreads.com/en/book/show/41881472",
+											2023)}
+										{generateReadingEntry( 
+											"Turning the Mind Into an Ally",
+											"Sakyong Mipham",
+											"https://www.goodreads.com/fa/book/show/281184",
+											2023)}
+										{generateReadingEntry( 
+											"The Code of the Extraordinary Mind",
+											"Vishen Lakhiani",
+											"https://www.goodreads.com/en/book/show/26114571",
+											2023)}
+											
+									{generateReadingEntry( 
+											"Tomorrow, and Tomorrow, and Tomorrow",
+											"Gabrielle Zevin",
+											"https://www.goodreads.com/en/book/show/58784475",
+											2023)}
 
 									{generateReadingEntry( 
 											"Hyperfocus",
 											"Chris Bailey",
 											"https://www.goodreads.com/en/book/show/36959766",
-											'Currently Reading')}
+											2023)}
 
 									{generateReadingEntry( 
 											"Breaking The Habit of Being Yourself",
 											"Joe Dispenza",
 											"https://www.goodreads.com/en/book/show/12951631",
-											'Currently Reading')}
+											2023)}
 											
 									{generateReadingEntry( 
 											"Limitless",
