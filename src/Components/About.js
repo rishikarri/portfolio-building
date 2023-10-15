@@ -18,7 +18,7 @@ class About extends Component {
 					</div>
 
 					<div className="col-xs-12 col-sm-9 col-md-10 col-lg-6 description-text">
-						My name is Rishi. I love to code and to express myself through <a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">songwriting.</a> I have a background in finance.
+						My name is Rishi. I love to code and enjoy expressing myself through <a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">songwriting.</a> I have a background in finance.
 					</div>					
 				</div>
 
@@ -104,7 +104,7 @@ class About extends Component {
 							/>
 						</div>
 						<p className="time-worked"> Software Engineer</p>
-						<p className="time-worked"> 04/2018 - Present</p>
+						<p className="time-worked"> 04/2018 - 10/2023</p>
 					</div>
 
 					<div className="work-block">

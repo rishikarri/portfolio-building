@@ -101,10 +101,20 @@ class Interests extends Component {
 
 									<tbody>
 										{generateReadingEntry( 
+											"Digital Millionaire Secrets",
+											"Dan Henry",
+											"https://www.goodreads.com/en/book/show/54709435",
+											'Currently Reading')}
+										{generateReadingEntry( 
+											"The Surrender Experiment",
+											"Michael A. Singer",
+											"https://www.goodreads.com/en/book/show/23164946",
+											2023)}
+										{generateReadingEntry( 
 											"The 10X Rule",
 											"Grant Cardone",
 											"https://www.goodreads.com/book/show/10339170-the-10x-rule",
-											'Currently Reading')}
+											2023)}
 										{generateReadingEntry( 
 											"The Untethered Soul",
 											"Michael A. Singer",
