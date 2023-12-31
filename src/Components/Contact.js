@@ -94,6 +94,17 @@ class Contact extends Component{
 									LinkedIn
 								</li>
 							</ul>						
+						</div>									
+
+						<div className='col-xs-12 col-md-6'>	
+							<ul className='no-bullet responsive-margin-above'>
+								<li>
+									<a target="_blank" href='https://www.youtube.com/channel/UCKl_Fz_RPqW7QkG4EhbrEUg'> <i className="fa fa-youtube fa-5x" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									YouTube
+								</li>
+							</ul>						
 						</div>																		
 
 						
@@ -102,7 +113,7 @@ class Contact extends Component{
 					
 				</div>
 
-				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2023. </div>
+				 <div className='col-xs-12' style={{marginTop: 180, textAlign: 'center'}}> Copyright © www.rishikarri.com 2024. </div>
 
 			</div>
 		)
