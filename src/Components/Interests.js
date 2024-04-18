@@ -100,6 +100,24 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
+									
+									{generateReadingEntry( 
+											"Tuesdays With Morrie",
+											"Mitch Albom",
+											"https://www.goodreads.com/en/book/show/6900",
+											2024)}
+									{generateReadingEntry( 
+											"Die With Zero",
+											"Bill Perkins",
+											"https://www.goodreads.com/en/book/show/52950915",
+											2024)}
+										{generateReadingEntry( 
+											"8 Rules of Love",
+											"Jay Shetty",
+											"https://www.goodreads.com/en/book/show/62634115",
+											2024)}
+										<tr className="year-divider">&nbsp;</tr>
+										<tr className="year-divider">&nbsp;</tr>
 										{generateReadingEntry( 
 											"The Ballad of Songbirds and Snakes",
 											"Suzanne Collins",

@@ -112,7 +112,7 @@ class About extends Component {
 							<img
 								className="work-logo-thingtech"
 								height={220}
-								src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1502287437/cfrkoc1jfpaukcoaie3q.png"
+								src="https://m.iotone.com/files/vendor/logo_ThingTech.jpg"
 							/>
 						</div>
 						<p className="time-worked-thingtech"> Software Developer</p>
