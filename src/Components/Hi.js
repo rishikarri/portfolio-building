@@ -60,8 +60,12 @@ class Hi extends Component{
 
 
 
-						<div className='weakly-beast-text'>Software Developer </div> 									
-						<div className='weak-beast-text'>Atlanta, Georgia </div> 									
+						<div className='weakly-beast-text'>Software Developer</div> 									
+						<div style={{marginTop: 20}} className='weakly-beast-text'>Songwriter</div> 									
+
+						<div style={{marginTop: 20}} className='weakly-beast-text'>Human</div> 									
+						
+						{/* <div className='weak-beast-text'>Atlanta, Georgia </div> 									 */}
 						
 					</div>
 				</div>				
