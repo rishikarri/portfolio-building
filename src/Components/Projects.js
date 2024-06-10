@@ -99,9 +99,9 @@ class Project extends Component{
 					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
 
 						<div className='section-heading'>
-							<h2><a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">"Circa 17" Music Group</a></h2>
+							<h2><a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">CIRCA 17</a></h2>
 
-							<p>I enjoy making music in my free time. My college roommate and I have several songs on Spotify. Give us a listen! 🙏 </p>
+							<p>I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. Give us a listen if you're interested 🙏 </p>
 
 							{/* <div className='repo-demo-links'>
 								<a className='margin-right' target="_blank" href='http://www.hrimagination.com/'><button className='btn btn-primary'> Website </button></a>

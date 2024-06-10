@@ -95,6 +95,18 @@ class About extends Component {
 						<div>&nbsp;</div>
 					</div>
 
+					<div style={{marginBottom: 100}} className="work-block">
+						<div>
+							<img
+								className="work-logo"
+								height={120}								
+								src="../../Images/circa-17-3Kx3K.jpg"
+							/>
+						</div>
+						<p className="time-worked">Songwriter</p>
+						<p className="time-worked"> 11/2023 - Present</p>
+					</div>
+
 					<div className="work-block">
 						<div>
 							<img
