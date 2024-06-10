@@ -100,7 +100,11 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
-									
+									{generateReadingEntry( 
+											"The Pathless Path",
+											"Paul Millerd",
+											"https://www.goodreads.com/book/show/60135094-the-pathless-path",
+											2024)}
 									{generateReadingEntry( 
 											"Tuesdays With Morrie",
 											"Mitch Albom",
