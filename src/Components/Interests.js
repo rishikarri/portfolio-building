@@ -108,6 +108,11 @@ class Interests extends Component {
 									<tr className="year-divider">&nbsp;</tr>
 									<tr className="year-divider">&nbsp;</tr>
 									{generateReadingEntry( 
+											"Canyons",
+											"Gary Paulsen",
+											"https://www.goodreads.com/book/show/52549.Canyons",
+											2024)}
+									{generateReadingEntry( 
 											"The Pathless Path",
 											"Paul Millerd",
 											"https://www.goodreads.com/book/show/60135094-the-pathless-path",
