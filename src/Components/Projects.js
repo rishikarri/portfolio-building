@@ -1,127 +1,72 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // add hrimagination.life to this
 
-class Project extends Component{
-
-
-	render(){
-		return(
+class Project extends Component {
+	render() {
+		return (
 			<div>
-				<div className='row kill-margin'>
+				
 
-					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>
-						
-
-						<div id='atlanta-vibes-div' className='section-heading project-image-div'>
-							<h2>AtlantaVibes</h2>
-							<p>AtlantaVibes is a full-stack application that aggregates data from the top music festivals, in Atlanta, into one easy to use website. AtlantaVibes lets users view, rate and comment on their favorite festivals in Atlanta.</p>
-							<p> HTML & CSS, Bootstrap, Sass, Javascript, jQuery, React.js, Redux, Node.js, Express.js, MySql, AWS</p>
-							{/*Link to youtube video */}
-							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=u4IcZspgeHc&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
-								<a target="_blank" href='https://github.com/rishikarri/AtlantaVibes'><button className='btn btn-primary'>Repository</button></a>
-							</div>
-						</div>
-					</div>
-
-					<div className='col-xs-12 col-sm-5'>						
-						<img className='project-image margin-above' src='../../Images/Projects-Page/AtlantaVibesHomePage.png' />
-					</div>
-
-
-				</div>
-
-				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
-				<div className='row kill-margin margin-above-heavy'>
-
-					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
-						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
-					</div>
-
-					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
-
-						<div className='section-heading'>
-							<h2>WordWorms</h2>
-
-							<p>A word learning app. Users are able to take vocabulary quizzes, look up words, and much more!</p>
-							<p> HTML & CSS, Bootstrap, React.js & React-Router, JavaScript (ES-6), jQuery</p>
-
-							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=uQAFY4libg8&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
-								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button className='btn btn-primary'>Repository</button></a>
-							</div>							
-						</div>						
-					</div>
-
-					
-					
-
-					<div className='col-xs-12 show-word-worm col-sm-5 col-sm-offset-1'>
-						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
-					</div>
-
-
-				</div>
-			{/*spacerdiv is what puts that nice clean line between projects */}
-				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
-				<div className='row kill-margin margin-above-heavy'>
-
-					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>
-						
-
-						<div className='section-heading  project-image-div'>
+				
+				{/*spacerdiv is what puts that nice clean line between projects */}
+				<div className="row kill-margin margin-above-heavy">
+					<div className="col-xs-12 col-sm-5 col-sm-offset-1">
+						<div className="section-heading  project-image-div">
 							<h2>Village Savior</h2>
-							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0, you must retreat!</p>
+							<p>
+								You're the shield.  Monsters and thieves are closing in.  Buy the villagers time.  Fight until you can't.  Then, and only then, retreat.
+							</p>
 							<p> HTML & CSS, JavaScript</p>
 							{/*Link to youtube video */}
-							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be'><button className='btn btn-primary'> Demo </button></a>
-								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button className='btn btn-primary'>Repository</button></a>
+							<div className="repo-demo-links">
+								<a disabled className="margin-right" target="_blank" href="https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be">
+									<button disabled className="btn btn-primary"> Demo Coming Soon</button>
+								</a>
+								<a target="_blank" href="https://github.com/rishikarri/village-savior">
+									<button className="btn btn-primary">Repository</button>
+								</a>
 							</div>
 						</div>
 					</div>
 
-					<div className='col-xs-12 col-sm-5'>						
-						<img className='project-image margin-above' src='../../Images/Projects-Page/survivor-screenshot.png' />
+					<div className="col-xs-12 col-sm-5">
+						<img className="project-image margin-above" src="../../Images/Projects-Page/survivor-screenshot.png" />
 					</div>
-
-
 				</div>
 
-				<div className='col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages'> </div>
-				<div className='row kill-margin margin-above-heavy'>
-
-					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
-						<img className='project-image-album-cover' src='../../Images/circa-17-3Kx3K.jpg'  />
+				<div className="col-xs-12 col-sm-10 col-sm-offset-1 spacerDivBetweenProjectImages"> </div>
+				<div className="row kill-margin margin-above-heavy">
+					<div className="col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0">
+						<img className="project-image-album-cover" src="../../Images/circa-17-3Kx3K.jpg" />
 					</div>
 
-					<div className='col-xs-12 col-sm-5 col-sm-offset-1 project-image-div'>																	
+					<div className="col-xs-12 col-sm-5 col-sm-offset-1 project-image-div">
+						<div className="section-heading">
+							<h2>
+								<a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">
+									CIRCA 17
+								</a>
+							</h2>
 
-						<div className='section-heading'>
-							<h2><a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">CIRCA 17</a></h2>
-
-							<p>I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. Give us a listen if you're interested 🙏 </p>
+							<p>
+								I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. Give us a listen if you're
+								interested 🙏{" "}
+							</p>
 
 							{/* <div className='repo-demo-links'>
 								<a className='margin-right' target="_blank" href='http://www.hrimagination.com/'><button className='btn btn-primary'> Website </button></a>
 								<a target="_blank" href='https://github.com/rishikarri/hr-imagination-website-'><button className='btn btn-primary'>Repository</button></a>
 							</div> */}
-						</div>						
+						</div>
 					</div>
-
-					
-					
 
 					{/* <div className='col-xs-12 show-word-worm col-sm-5 col-sm-offset-1'>
 						<img className='project-image margin-above' src='../../Images/circa-17-3Kx3K.jpg' />
 					</div> */}
-
-
 				</div>
-
 			</div>
-		)
+		);
 	}
 }
 
