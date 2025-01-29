@@ -104,7 +104,7 @@ class About extends Component {
 							/>
 						</div>
 						<p className="time-worked">Video Editing Agency Owner</p>
-						<p className="time-worked"> 11/2023 - Present</p>
+						<p className="time-worked"> 06/2024 - 01/2025</p>
 					</div>
 
 					<div className="work-block">
