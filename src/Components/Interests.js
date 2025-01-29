@@ -22,9 +22,9 @@ class Interests extends Component {
 				<div className="col-xs-12">
 					<div className="row kill-margin">
 						{/*header section*/}
-						<div className="row kill-margin">
+						{/* <div className="row kill-margin">
 							<div className="col-xs-12 description-text">{quote}</div>
-						</div>
+						</div> */}
 
 						{/*Body section*/}
 						<div className="row kill-margin">
