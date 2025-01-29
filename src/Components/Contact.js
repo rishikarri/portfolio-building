@@ -16,7 +16,7 @@ class Contact extends Component{
 				<div className='move-contact-me-section-down'>
 					
 					<div className='description-text'>
-						I like building things and enjoy meeting new people! 
+						I like building things and enjoy meeting new people
 					</div>
 
 					<div className='description-text'>
