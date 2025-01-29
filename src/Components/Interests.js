@@ -101,6 +101,13 @@ class Interests extends Component {
 
 									<tbody>
 									{generateReadingEntry( 
+											"The Stranger in the Lifeboat",
+											"Mitch Albom",
+											"https://www.goodreads.com/book/show/56922594-the-stranger-in-the-lifeboat",
+											2025)}
+									<tr className="year-divider">&nbsp;</tr>
+									<tr className="year-divider">&nbsp;</tr>
+									{generateReadingEntry( 
 											"The Pathless Path",
 											"Paul Millerd",
 											"https://www.goodreads.com/book/show/60135094-the-pathless-path",

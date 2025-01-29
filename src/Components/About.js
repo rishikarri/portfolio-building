@@ -100,10 +100,10 @@ class About extends Component {
 							<img
 								className="work-logo"
 								height={120}								
-								src="../../Images/circa-17-3Kx3K.jpg"
+								src="../../Images/videoEditingIcon.png"
 							/>
 						</div>
-						<p className="time-worked">Songwriter</p>
+						<p className="time-worked">Video Editing Agency Owner</p>
 						<p className="time-worked"> 11/2023 - Present</p>
 					</div>
 
