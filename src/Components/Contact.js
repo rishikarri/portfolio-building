@@ -20,7 +20,7 @@ class Contact extends Component{
 					</div>
 
 					<div className='description-text'>
-						Learn more / Contact Me:
+						Connect with me:
 					</div>					
 
 					<div className='col-xs-6 col-xs-offset-3 contact-me-section margin-above'>
@@ -32,11 +32,11 @@ class Contact extends Component{
 							<ul className='no-bullet'>
 								<li>
 									{/*allow users to email you directly */}
-									<a target="_blank" href='mailto:rishikarri1@gmail.com'><i className="fa fa-envelope fa-5x" aria-hidden="true"></i></a>								
+									<a target="_blank" href='https://www.instagram.com/rishikarri'><i className="fa fa-instagram fa-5x" aria-hidden="true"></i></a>								
 									
 								</li>
 								<li>
-									Email
+									Instagram
 								</li>
 							</ul>						
 						</div>
