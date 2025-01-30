@@ -17,7 +17,15 @@ class Project extends Component {
 							<p>
 								You're the shield.  Monsters and thieves are closing in.  Buy the villagers time.  Fight until you can't.  Then, and only then, retreat.
 							</p>
+							<div className="spacer-line" /> 
+							<p><strong>Tech</strong></p>
 							<p> HTML & CSS, JavaScript</p>
+							<p> AWS S3 and Route 53 for deployment</p>
+							<div className="spacer-line" /> 
+							<p><strong>Demo</strong></p>
+							<p> Demo can be played on desktop computer (doesn't work on phones)</p>
+
+							<p> Note: I'm working on getting an SSL certificate right now via AWS (ACM). So you have to access the demo via http request (https won't work)</p>
 							{/*Link to youtube video */}
 							<div className="repo-demo-links">
 								<a className="margin-right" target="_blank" href="http://village-savior.s3-website-us-east-1.amazonaws.com/">
@@ -50,8 +58,7 @@ class Project extends Component {
 							</h2>
 
 							<p>
-								I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. Give us a listen if you're
-								interested 🙏{" "}
+								I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. My current favorites are <strong>"Ordinary Bench"</strong> and <strong>"Art Therapy"</strong>.
 							</p>
 
 							{/* <div className='repo-demo-links'>

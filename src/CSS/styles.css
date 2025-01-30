@@ -69,6 +69,11 @@
   margin-top: 40px;
 }
 
+.spacer-line {
+  height: 1px; /* Adjust height for thicker/thinner line */
+  background-color: #ccc; /* Light gray - adjust as needed */
+}
+
 .time-worked-thingtech {
   margin-top: -70px;
   font-weight: bold;
