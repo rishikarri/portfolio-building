@@ -32,7 +32,7 @@ class Project extends Component {
 									<button className="btn btn-primary"> Demo</button>
 								</a>
 								<a target="_blank" href="https://github.com/rishikarri/village-savior">
-									<button className="btn btn-primary">Repository</button>
+									<button className="btn btn-primary">Code Repository</button>
 								</a>
 							</div>
 						</div>
