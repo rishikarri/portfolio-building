@@ -20,16 +20,15 @@ class Project extends Component {
 							<div className="spacer-line" /> 
 							<p><strong>Tech</strong></p>
 							<p> HTML & CSS, JavaScript</p>
-							<p> AWS S3 and Route 53 for deployment</p>
+							<p> AWS S3, AWS Route 53, AWS Amplify for deployment onto a public domain</p>
 							<div className="spacer-line" /> 
 							<p><strong>Demo</strong></p>
 							<p> Demo can be played on desktop computer (doesn't work on phones)</p>
-
-							<p> Note: I'm working on getting an SSL certificate right now via AWS (ACM). So you have to access the demo via http request (https won't work)</p>
+							
 							{/*Link to youtube video */}
 							<div className="repo-demo-links">
-								<a className="margin-right" target="_blank" href="http://village-savior.s3-website-us-east-1.amazonaws.com/">
-									<button className="btn btn-primary"> Demo</button>
+								<a className="margin-right" target="_blank" href="https://www.villagesaviorgame.com">
+									<button className="btn btn-primary">Demo</button>
 								</a>
 								<a target="_blank" href="https://github.com/rishikarri/village-savior">
 									<button className="btn btn-primary">Code Repository</button>
