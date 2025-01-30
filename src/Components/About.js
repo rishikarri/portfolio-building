@@ -103,8 +103,8 @@ class About extends Component {
 								src="../../Images/videoEditingIcon.png"
 							/>
 						</div>
-						<p className="time-worked">Video Editing Agency Owner</p>
-						<p className="time-worked"> 06/2024 - 01/2025</p>
+						<p className="time-worked">Video Creator /  Agency Owner</p>
+						<p className="time-worked"> 10/2023 - 01/2025</p>
 					</div>
 
 					<div className="work-block">
