@@ -20,8 +20,8 @@ class Project extends Component {
 							<p> HTML & CSS, JavaScript</p>
 							{/*Link to youtube video */}
 							<div className="repo-demo-links">
-								<a disabled className="margin-right" target="_blank" href="https://www.youtube.com/watch?v=kVRCTKB7NRo&feature=youtu.be">
-									<button disabled className="btn btn-primary"> Demo Coming Soon</button>
+								<a className="margin-right" target="_blank" href="http://village-savior.s3-website-us-east-1.amazonaws.com/">
+									<button className="btn btn-primary"> Demo</button>
 								</a>
 								<a target="_blank" href="https://github.com/rishikarri/village-savior">
 									<button className="btn btn-primary">Repository</button>
