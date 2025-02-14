@@ -107,11 +107,32 @@ class Interests extends Component {
 											2025)}
 									<tr className="year-divider">&nbsp;</tr>
 									<tr className="year-divider">&nbsp;</tr>
+									
 									{generateReadingEntry( 
 											"Canyons",
 											"Gary Paulsen",
 											"https://www.goodreads.com/book/show/52549.Canyons",
 											2024)}
+									
+									{generateReadingEntry( 
+											"Healing Is the New High",
+											"Vex King",
+											"https://www.goodreads.com/book/show/56623597-healing-is-the-new-high",
+											2024)}
+
+
+									{generateReadingEntry( 
+											"The Elephant in the Brain",
+											"Kevin Simler, Robin Hanson",
+											"https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain",
+											2024)}
+											
+									{generateReadingEntry( 
+											"High Performance Habits",
+											"Brendon Burchard",
+											"https://www.goodreads.com/book/show/30227731-high-performance-habits",
+											2024)}
+									
 									{generateReadingEntry( 
 											"The Pathless Path",
 											"Paul Millerd",
