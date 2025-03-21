@@ -101,6 +101,24 @@ class Interests extends Component {
 
 									<tbody>
 									{generateReadingEntry( 
+											"Cashvertising",
+											"Drew Eric Whitman",
+											"https://www.goodreads.com/book/show/6238528-cashvertising",
+											2025)}
+									{generateReadingEntry( 
+											"The Almanack of Naval Ravikant^2",
+											"Eric Jorgenson",
+											"https://www.goodreads.com/en/book/show/54898389",
+											2025)}
+									{generateReadingEntry("A New Earth^2", "Eckhart Tolle", "https://www.goodreads.com/book/show/76334.A_New_Earth", 2025)}
+									{generateReadingEntry( 
+											"Dark Matter",
+											"Blake Crouch",
+											"https://www.goodreads.com/book/show/27833670-dark-matter",
+											2025)}
+									
+
+									{generateReadingEntry( 
 											"The Stranger in the Lifeboat",
 											"Mitch Albom",
 											"https://www.goodreads.com/book/show/56922594-the-stranger-in-the-lifeboat",
