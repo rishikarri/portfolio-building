@@ -94,6 +94,17 @@ class About extends Component {
 					<div className="col-xs-12 margin-above">
 						<div>&nbsp;</div>
 					</div>
+					<div style={{marginBottom: 100}} className="work-block">
+						<div>
+							<img
+								className="work-logo"
+								height={120}
+								src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/CNN.png"
+							/>
+						</div>
+						<p className="time-worked"> Software Engineer</p>
+						<p className="time-worked"> 03/2025 - Present</p>
+					</div>
 
 					<div style={{marginBottom: 100}} className="work-block">
 						<div>
