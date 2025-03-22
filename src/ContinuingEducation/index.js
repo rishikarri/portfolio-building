@@ -38,8 +38,10 @@ class ContinuingEducation extends Component{
 						</ul>
 					</p>
 
-					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><a target="_blank" href="https://www.udemy.com/">Udemy Courses</a></div>
+					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><a target="_blank" href="https://www.udemy.com/">Online Courses</a></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
+					<li style={{ fontSize: 14, color: 'black'}}>System Design - NeetCode</li>
+						<li style={{ fontSize: 14, color: 'black'}}>System Design (For Beginners) - NeetCode</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>Advanced React & Redux - Stephen Grider</li>
 		                <li style={{ fontSize: 14, color: 'black'}}>React Native and Redux - Stephen Grider</li> 
 		                <li style={{ fontSize: 14, color: 'black',}}>NodeJS - Anthony Alicea</li>
