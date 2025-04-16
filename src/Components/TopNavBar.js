@@ -7,7 +7,7 @@ class TopNavBar extends Component{
 		return(
 			<div>
 				<nav className="top-nav-bar">					
-					<IndexLink activeClassName="active-link" className=' nav-bar-link-top nav-bar-link-top-first' to="/"> Hi :D</IndexLink>					
+					<IndexLink activeClassName="active-link" className=' nav-bar-link-top nav-bar-link-top-first' to="/"> Hi</IndexLink>					
 					<Link activeClassName="active-link" className='nav-bar-link-top' to="about">About Me</Link>
 					<Link activeClassName="active-link" className='nav-bar-link-top' to="interests">Interests</Link>
 					<Link activeClassName="active-link" className='nav-bar-link-top' to="projects">Projects</Link>

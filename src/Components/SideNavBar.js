@@ -15,7 +15,7 @@ class SideNavBar extends Component{
 		return(
 			<div>
 				<nav className="side-nav-bar">					
-					<IndexLink activeClassName="active-link" className='nav-bar-link' to="/"> Hi :D</IndexLink>					
+					<IndexLink activeClassName="active-link" className='nav-bar-link' to="/"> Hi</IndexLink>					
 					<Link activeClassName="active-link" className='nav-bar-link' to="about">About Me</Link>
 					<Link activeClassName="active-link" className='nav-bar-link' to="interests">Interests</Link>
 					<Link activeClassName="active-link" className='nav-bar-link' to="projects">Projects</Link>
