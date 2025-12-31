@@ -101,6 +101,23 @@ class Interests extends Component {
 
 									<tbody>
 									{generateReadingEntry( 
+											"The Will of the Many",
+											"James Islington",
+											"https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
+											"Currently Reading")}
+									{generateReadingEntry( 
+											"Lighter",
+											"Yung Pueblo",
+											"https://www.goodreads.com/book/show/60564460-lighter",
+											"Currently Reading")}
+									{generateReadingEntry( 
+											"How to Love Better",
+											"Yung Pueblo",
+											"https://www.goodreads.com/book/show/215100951-how-to-love-better",
+											"Currently Reading")}
+									<tr className="year-divider">&nbsp;</tr>
+									<tr className="year-divider">&nbsp;</tr>
+									{generateReadingEntry( 
 											"Mistborn: The Hero of Ages",
 											"Brandon Sanderson",
 											"https://www.goodreads.com/book/show/2767793-the-hero-of-ages",
@@ -118,6 +135,11 @@ class Interests extends Component {
 									"Brandon Sanderson",
 									"https://www.goodreads.com/book/show/68428-mistborn",
 									2025)}
+									{generateReadingEntry( 
+											"Feel Good Productivity",
+											"Ali Abdaal",
+											"https://www.goodreads.com/book/show/142402923-feel-good-productivity",
+											2025)}
 									{generateReadingEntry( 
 											"Cashvertising",
 											"Drew Eric Whitman",

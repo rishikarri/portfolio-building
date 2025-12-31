@@ -72,7 +72,7 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Books read by year</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-					<li style={{ fontSize: 14, color: 'black'}}>2025: 11 Books</li>
+					<li style={{ fontSize: 14, color: 'black'}}>2025: 12 Books</li>
 						<li style={{ fontSize: 14, color: 'black'}}>2024: 8 Books</li>
 						<li style={{ fontSize: 14, color: 'black'}}>2023: 16 Books</li>
 						<li style={{ fontSize: 14, color: 'black'}}>2022: 9 Books</li>
