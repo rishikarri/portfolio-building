@@ -64,17 +64,23 @@ class ContinuingEducation extends Component{
 		                <li style={{ fontSize: 14, color: 'black'}}>Learn Python the Hard Way - Zed Shaw</li> 
 					</p>
 
-					<div className="col-xs-12" style={{display: 'flex'}}><span style={{color: '#337ab7'}}>Other</span></div>
+					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Leetcode and Neetcode Problems Solved</span></div>
+					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
+						<li style={{ fontSize: 14, color: 'black'}}>Leetcode: 26</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>Neetcode: 12</li> 						
+					</p>
+
+					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Books read by year</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-					<li style={{ fontSize: 14, color: 'black'}}>5 Books read in 2025 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>8 Books read in 2024 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>16 Books read in 2023 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>9 Books read in 2022 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>21 Books read in 2021 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>13 Books read in 2020 </li>
-						<li style={{ fontSize: 14, color: 'black'}}>14 Books read in 2019 </li>
-		                <li style={{ fontSize: 14, color: 'black'}}>29 Books read in 2018 </li>
-		                <li style={{ fontSize: 14, color: 'black'}}>30 Books read in 2017 </li>
+					<li style={{ fontSize: 14, color: 'black'}}>2025: 11 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2024: 8 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2023: 16 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2022: 9 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2021: 21 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2020: 13 Books</li>
+						<li style={{ fontSize: 14, color: 'black'}}>2019: 14 Books</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>2018: 29 Books</li>
+		                <li style={{ fontSize: 14, color: 'black'}}>2017: 30 Books</li>
 					</p>
 
 

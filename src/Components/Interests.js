@@ -101,6 +101,24 @@ class Interests extends Component {
 
 									<tbody>
 									{generateReadingEntry( 
+											"Mistborn: The Hero of Ages",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/2767793-the-hero-of-ages",
+											2025)}
+											
+									{generateReadingEntry( 
+											"Mistborn: The Well of Ascension",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/68429-the-well-of-ascension",
+											2025)}
+									
+
+									{generateReadingEntry( 
+									"Mistborn: The Final Empire",
+									"Brandon Sanderson",
+									"https://www.goodreads.com/book/show/68428-mistborn",
+									2025)}
+									{generateReadingEntry( 
 											"Cashvertising",
 											"Drew Eric Whitman",
 											"https://www.goodreads.com/book/show/6238528-cashvertising",
@@ -122,6 +140,22 @@ class Interests extends Component {
 											"The Stranger in the Lifeboat",
 											"Mitch Albom",
 											"https://www.goodreads.com/book/show/56922594-the-stranger-in-the-lifeboat",
+											2025)}
+									
+									{generateReadingEntry( 
+											"The Miracle Morning^2",
+											"Hal Elrod",
+											"https://www.goodreads.com/book/show/17166225-the-miracle-morning",
+											2025)}
+									{generateReadingEntry( 
+											"Secrets of the Millionaire Mind^2",
+											"T. Harv Eker",
+											"https://www.goodreads.com/book/show/785092.Secrets_of_the_Millionaire_Mind",
+											2025)}
+									{generateReadingEntry( 
+											"Self Mastery",
+											"Swami Paramananda",
+											"https://sfvedanta.org/books/self-mastery/",
 											2025)}
 									<tr className="year-divider">&nbsp;</tr>
 									<tr className="year-divider">&nbsp;</tr>
