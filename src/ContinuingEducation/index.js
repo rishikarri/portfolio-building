@@ -66,8 +66,8 @@ class ContinuingEducation extends Component{
 
 					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Leetcode and Neetcode Problems Solved</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
-						<li style={{ fontSize: 14, color: 'black'}}>Leetcode: 26</li> 						
-						<li style={{ fontSize: 14, color: 'black'}}>Neetcode: 12</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>Leetcode: 23</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>Neetcode: 17</li> 						
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Books read by year</span></div>
