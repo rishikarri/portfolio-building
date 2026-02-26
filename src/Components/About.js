@@ -94,7 +94,7 @@ class About extends Component {
 					<div className="col-xs-12 margin-above">
 						<div>&nbsp;</div>
 					</div>
-					<div style={{marginBottom: 100}} className="work-block">
+					<div className="work-block">
 						<div>
 							<img
 								className="work-logo"
@@ -106,7 +106,7 @@ class About extends Component {
 						<p className="time-worked"> 03/2025 - Present</p>
 					</div>
 
-					<div style={{marginBottom: 100}} className="work-block">
+					<div className="work-block">
 						<div>
 							<img
 								className="work-logo"
@@ -134,11 +134,10 @@ class About extends Component {
 						<div>
 							<img
 								className="work-logo-thingtech"
-								height={220}
-								src="https://m.iotone.com/files/vendor/logo_ThingTech.jpg"
+								src="/Images/thingtech_now_trackstar.png"
 							/>
 						</div>
-						<p className="time-worked-thingtech"> Software Developer</p>
+						<p className="time-worked-thingtech"> Software Developer, Thingtech (now Trackstar)</p>
 						<p className="time-worked"> 05/2017 - 02/2018</p>
 					</div>
 
@@ -150,7 +149,7 @@ class About extends Component {
 								src="https://content.rwbaird.com/RWB/HTML/GIB_DA/images/BairdLogo.png"
 							/>
 						</div>
-						<p className="time-worked-thingtech"> Investment Banking Analyst</p>
+						<p className="time-worked"> Investment Banking Analyst</p>
 						<p className="time-worked"> 07/2015 - 09/2016</p>
 					</div>
 				</div>
