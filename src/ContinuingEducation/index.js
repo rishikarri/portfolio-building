@@ -67,20 +67,21 @@ class ContinuingEducation extends Component{
 					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Leetcode and Neetcode Problems Solved</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}>
 						<li style={{ fontSize: 14, color: 'black'}}>Leetcode: 23</li> 						
-						<li style={{ fontSize: 14, color: 'black'}}>Neetcode: 17</li> 						
+						<li style={{ fontSize: 14, color: 'black'}}>Neetcode: 32</li> 						
 					</p>
 
 					<div className="col-xs-12" style={{display: 'flex', fontWeight: 'bold'}}><span style={{color: '#337ab7'}}>Books read by year</span></div>
 					<p className='col-xs-12' style={{marginLeft: 20, textAlign: 'left', }}> 
-					<li style={{ fontSize: 14, color: 'black'}}>2025: 12 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2024: 8 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2023: 16 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2022: 9 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2021: 21 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2020: 13 Books</li>
-						<li style={{ fontSize: 14, color: 'black'}}>2019: 14 Books</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>2018: 29 Books</li>
-		                <li style={{ fontSize: 14, color: 'black'}}>2017: 30 Books</li>
+					<li style={{ fontSize: 14, color: 'black'}}>2026: 2 </li>
+					<li style={{ fontSize: 14, color: 'black'}}>2025: 12 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2024: 8 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2023: 16 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2022: 9 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2021: 21 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2020: 13 </li>
+						<li style={{ fontSize: 14, color: 'black'}}>2019: 14 </li>
+		                <li style={{ fontSize: 14, color: 'black'}}>2018: 29 </li>
+		                <li style={{ fontSize: 14, color: 'black'}}>2017: 30 </li>
 					</p>
 
 
