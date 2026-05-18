@@ -102,22 +102,38 @@ class Interests extends Component {
 									<tbody>
 									
 									{generateReadingEntry( 
-											"How to Love Better",
-											"Yung Pueblo",
-											"https://www.goodreads.com/book/show/215100951-how-to-love-better",
+											"Mistborn: Shadows of Self",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/24357485-shadows-of-self",
 											"Currently Reading")}
+									{generateReadingEntry( 
+											"The 5 AM Club",
+											"Robin Sharma",
+											"https://www.goodreads.com/en/book/show/37502596-the-5-am-club",
+											"Currently Reading")}
+									<tr className="year-divider">&nbsp;</tr>
+									<tr className="year-divider">&nbsp;</tr>
 									{generateReadingEntry( 
 											"The Alloy of Law",
 											"Brandon Sanderson",
 											"https://www.goodreads.com/book/show/10803121-the-alloy-of-law",
-											"Currently Reading")}
+											2026)}
+									{generateReadingEntry( 
+											"How to Love Better",
+											"Yung Pueblo",
+											"https://www.goodreads.com/book/show/215100951-how-to-love-better",
+											2026)}
+									
 									{generateReadingEntry( 
 											"Approval Addiction",
 											"Steve Siebold",
 											"https://www.amazon.com/Approval-Addiction-Silent-Killer-Success/dp/0996516999",
-											"Currently Reading")}
-									<tr className="year-divider">&nbsp;</tr>
-									<tr className="year-divider">&nbsp;</tr>
+											2026)}
+									{generateReadingEntry( 
+											"Your Unique Path to Wealth",
+											"Eric John Campbell",
+											"https://www.goodreads.com/search?q=Your+Unique+Path+to+Wealth",
+											2026)}
 									{generateReadingEntry( 
 											"Lighter",
 											"Yung Pueblo",
