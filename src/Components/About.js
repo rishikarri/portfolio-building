@@ -114,7 +114,7 @@ class About extends Component {
 								src="../../Images/videoEditingIcon.png"
 							/>
 						</div>
-						<p className="time-worked">Video Creator /  Agency Owner</p>
+						<p className="time-worked"><a target="_blank" href="https://www.youtube.com/watch?v=AOTBD3nyFM4">Video Editing Agency Owner</a></p>
 						<p className="time-worked"> 10/2023 - 01/2025</p>
 					</div>
 

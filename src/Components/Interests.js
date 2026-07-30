@@ -102,17 +102,27 @@ class Interests extends Component {
 									<tbody>
 									
 									{generateReadingEntry( 
-											"Mistborn: Shadows of Self",
-											"Brandon Sanderson",
-											"https://www.goodreads.com/book/show/24357485-shadows-of-self",
-											"Currently Reading")}
-									{generateReadingEntry( 
 											"The 5 AM Club",
 											"Robin Sharma",
 											"https://www.goodreads.com/en/book/show/37502596-the-5-am-club",
 											"Currently Reading")}
 									<tr className="year-divider">&nbsp;</tr>
 									<tr className="year-divider">&nbsp;</tr>
+									{generateReadingEntry( 
+											"Mistborn: Shadows of Self",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/24357485-shadows-of-self",
+											2026)}
+									{generateReadingEntry( 
+											"The Monk Who Sold His Ferrari",
+											"Robin Sharma",
+											"https://www.goodreads.com/en/book/show/43877.The_Monk_Who_Sold_His_Ferrari",
+											2026)}
+									{generateReadingEntry( 
+											"Turning Pro",
+											"Steven Pressfield",
+											"https://www.goodreads.com/en/book/show/14912777-turning-pro",
+											2026)}
 									{generateReadingEntry( 
 											"The Alloy of Law",
 											"Brandon Sanderson",
