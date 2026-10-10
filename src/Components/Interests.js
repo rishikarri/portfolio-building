@@ -100,18 +100,62 @@ class Interests extends Component {
 									</thead>
 
 									<tbody>
-									
 									{generateReadingEntry( 
-											"The 5 AM Club",
-											"Robin Sharma",
-											"https://www.goodreads.com/en/book/show/37502596-the-5-am-club",
+											"The 12 Week Year",
+											"Brian P. Moran, Michael Lennington",
+											"https://www.goodreads.com/book/show/10009377-the-12-week-year",
+											"Currently Reading")}
+									{generateReadingEntry( 
+											"Warbreaker",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/1268479.Warbreaker",
 											"Currently Reading")}
 									<tr className="year-divider">&nbsp;</tr>
 									<tr className="year-divider">&nbsp;</tr>
 									{generateReadingEntry( 
+											"As a Man Thinketh",
+											"James Allen",
+											"https://www.goodreads.com/book/show/81959.As_a_Man_Thinketh",
+											2026)}
+									{generateReadingEntry( 
+											"From Poverty to Power",
+											"James Allen",
+											"https://www.goodreads.com/book/show/3691441-from-poverty-to-power",
+											2026)}
+									{generateReadingEntry( 
+											"Why We Meditate",
+											"Daniel Goleman, Tsoknyi Rinpoche",
+											"https://www.goodreads.com/book/show/60321457-why-we-meditate",
+											2026)}
+									{generateReadingEntry( 
+											"The 5 AM Club",
+											"Robin Sharma",
+											"https://www.goodreads.com/en/book/show/37502596-the-5-am-club",
+											2026)}
+									{generateReadingEntry( 
+											"The Things We Never Say",
+											"Elizabeth Strout",
+											"https://www.goodreads.com/book/show/242082631-the-things-we-never-say",
+											2026)}
+									{generateReadingEntry( 
+											"Mistborn: The Lost Metal",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/23947089-the-lost-metal",
+											2026)}
+									{generateReadingEntry( 
+											"Mistborn: The Bands of Mourning",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/18739426-the-bands-of-mourning",
+											2026)}
+									{generateReadingEntry( 
 											"Mistborn: Shadows of Self",
 											"Brandon Sanderson",
 											"https://www.goodreads.com/book/show/24357485-shadows-of-self",
+											2026)}
+									{generateReadingEntry( 
+											"The Alloy of Law",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/10803121-the-alloy-of-law",
 											2026)}
 									{generateReadingEntry( 
 											"The Monk Who Sold His Ferrari",
@@ -122,11 +166,6 @@ class Interests extends Component {
 											"Turning Pro",
 											"Steven Pressfield",
 											"https://www.goodreads.com/en/book/show/14912777-turning-pro",
-											2026)}
-									{generateReadingEntry( 
-											"The Alloy of Law",
-											"Brandon Sanderson",
-											"https://www.goodreads.com/book/show/10803121-the-alloy-of-law",
 											2026)}
 									{generateReadingEntry( 
 											"How to Love Better",
@@ -161,19 +200,16 @@ class Interests extends Component {
 											"Brandon Sanderson",
 											"https://www.goodreads.com/book/show/2767793-the-hero-of-ages",
 											2025)}
-											
 									{generateReadingEntry( 
 											"Mistborn: The Well of Ascension",
 											"Brandon Sanderson",
 											"https://www.goodreads.com/book/show/68429-the-well-of-ascension",
 											2025)}
-									
-
 									{generateReadingEntry( 
-									"Mistborn: The Final Empire",
-									"Brandon Sanderson",
-									"https://www.goodreads.com/book/show/68428-mistborn",
-									2025)}
+											"Mistborn: The Final Empire",
+											"Brandon Sanderson",
+											"https://www.goodreads.com/book/show/68428-mistborn",
+											2025)}
 									{generateReadingEntry( 
 											"Feel Good Productivity",
 											"Ali Abdaal",

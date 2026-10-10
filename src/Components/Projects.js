@@ -27,11 +27,8 @@ class Project extends Component {
 							
 							{/*Link to youtube video */}
 							<div className="repo-demo-links">
-								<a className="margin-right" target="_blank" href="https://www.villagesaviorgame.com">
+								<a target="_blank" href="https://www.villagesaviorgame.com">
 									<button className="btn btn-primary">Play</button>
-								</a>
-								<a target="_blank" href="https://github.com/rishikarri/village-savior">
-									<button className="btn btn-primary">Code Repository</button>
 								</a>
 							</div>
 						</div>

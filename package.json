@@ -15,8 +15,8 @@
     "react-router": "^3.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "bash scripts/use-node-16.sh start",
+    "build": "bash scripts/use-node-16.sh build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
