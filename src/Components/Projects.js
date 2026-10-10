@@ -54,8 +54,14 @@ class Project extends Component {
 							</h2>
 
 							<p>
-								I enjoy transmuting soul to sound. My undergrad roommate and I have several songs on Spotify. My current favorites are <strong>"Ordinary Bench"</strong> and <strong>"Art Therapy"</strong>.
+								I like to pick up instruments. My undergrad roommate and I posted some of our songs on Spotify. My current favorites are <strong>"Ordinary Bench"</strong> and <strong>"Stage Fright"</strong>.
 							</p>
+
+							<div className="repo-demo-links">
+								<a target="_blank" href="https://open.spotify.com/artist/5ad9XwiyzNIZJ1JuY8uNAm">
+									<button className="btn btn-primary">Listen</button>
+								</a>
+							</div>
 
 							{/* <div className='repo-demo-links'>
 								<a className='margin-right' target="_blank" href='http://www.hrimagination.com/'><button className='btn btn-primary'> Website </button></a>
